@@ -1,0 +1,8 @@
+drwxr-xr-x    3 petriko1   petriko1         4096 Oct 27  2021 .
+drwxr-xr-x   37 petriko1   petriko1         4096 Oct 27  2021 ..
+-rw-r--r--    1 petriko1   petriko1         1487 Feb 13  2021 field_slider.css
+-rw-r--r--    1 petriko1   petriko1        12140 Mar 31 11:18 field_slider.js
+-rw-r--r--    1 petriko1   petriko1         3236 Mar 31 11:28 field_slider.min.js
+-rw-r--r--    1 petriko1   petriko1        15385 Feb 13  2021 field_slider.php
+-rw-r--r--    1 petriko1   petriko1         1798 Feb 13  2021 field_slider.scss
+drwxr-xr-x    3 petriko1   petriko1         4096 Oct 27  2021 vendor

@@ -1,0 +1,15 @@
+drwxr-xr-x    3 petriko1   petriko1         4096 Oct 27  2021 .
+drwxr-xr-x    9 petriko1   petriko1         4096 Oct 27  2021 ..
+-rw-r--r--    1 petriko1   petriko1         4178 Feb 13  2021 ajax-loader.gif
+-rw-r--r--    1 petriko1   petriko1        99444 Feb 13  2021 animate.css
+-rw-r--r--    1 petriko1   petriko1          170 Feb 13  2021 config.rb
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 fonts
+-rw-r--r--    1 petriko1   petriko1         1786 Mar 31 09:29 slick-animation.js
+-rw-r--r--    1 petriko1   petriko1         3349 Feb 13  2021 slick-theme.css
+-rw-r--r--    1 petriko1   petriko1         4349 Feb 13  2021 slick-theme.less
+-rw-r--r--    1 petriko1   petriko1         4952 Feb 13  2021 slick-theme.scss
+-rw-r--r--    1 petriko1   petriko1         1895 Feb 13  2021 slick.css
+-rw-r--r--    1 petriko1   petriko1        93019 Mar 31 09:26 slick.js
+-rw-r--r--    1 petriko1   petriko1         1856 Feb 13  2021 slick.less
+-rw-r--r--    1 petriko1   petriko1        53182 Mar 31 09:38 slick.min.js
+-rw-r--r--    1 petriko1   petriko1         1856 Feb 13  2021 slick.scss

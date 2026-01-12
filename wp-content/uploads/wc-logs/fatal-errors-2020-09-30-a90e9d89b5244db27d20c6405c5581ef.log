@@ -1,0 +1,12 @@
+2020-09-30T20:11:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function action_woocommerce_shop_loop(), 1 passed in /Applications/MAMP/htdocs/Teabah/wp-includes/class-wp-hook.php on line 287 and exactly 2 expected in /Applications/MAMP/htdocs/Teabah/wp-content/themes/Teabah/inc/woocommerce.php:192
+Stack trace:
+#0 /Applications/MAMP/htdocs/Teabah/wp-includes/class-wp-hook.php(287): action_woocommerce_shop_loop('')
+#1 /Applications/MAMP/htdocs/Teabah/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/Teabah/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/Teabah/wp-content/themes/Teabah/woocommerce/archive-product.php(69): do_action('woocommerce_sho...')
+#4 /Applications/MAMP/htdocs/Teabah/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Teabah/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/Teabah/index.php(17): require('/Applications/M...')
+#7 {main}
+  t in /Applications/MAMP/htdocs/Teabah/wp-content/themes/Teabah/inc/woocommerce.php on line 192
+

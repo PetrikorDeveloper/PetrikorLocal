@@ -1,0 +1,12 @@
+drwxr-xr-x    7 petriko1   petriko1         4096 Sep  9  2021 .
+drwxr-xr-x   13 petriko1   petriko1         4096 Sep  9  2021 ..
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 langs
+-rw-r--r--    1 petriko1   petriko1        26441 May  8  2017 license.txt
+drwxr-xr-x   24 petriko1   petriko1         4096 Sep  9  2021 plugins
+drwxr-xr-x    4 petriko1   petriko1         4096 Sep  9  2021 skins
+drwxr-xr-x    4 petriko1   petriko1         4096 Sep  9  2021 themes
+-rw-r--r--    1 petriko1   petriko1        15988 Apr  9 22:47 tiny_mce_popup.js
+-rw-r--r--    1 petriko1   petriko1       365570 Apr  9 22:47 tinymce.min.js
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 utils
+-rw-r--r--    1 petriko1   petriko1       671350 Apr  9 22:47 wp-tinymce.js
+-rw-r--r--    1 petriko1   petriko1         1042 Feb  6  2020 wp-tinymce.php

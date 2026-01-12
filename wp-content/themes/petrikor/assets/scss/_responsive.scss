@@ -1,0 +1,12 @@
+$small_device:"(min-width: 320px) and (max-width : 475px)";
+$phone_portrait: "(max-width : 575px)";
+$phone_landscape: "(min-width: 576px) and (max-width: 767px)";
+$mini: "(min-width: 992px)";
+$tablets: "(min-width: 768px) and (max-width: 991px)";
+$iPhone: "only screen and (width : 375px) and (height : 635px) and (orientation : portrait) and (-webkit-device-pixel-ratio : 3)";
+$iPad_portrait: "only screen and (min-width: 1024px) and (max-height: 1366px)  and (orientation: portrait)  and (-webkit-min-device-pixel-ratio: 1.5)";
+$iPad_landscape: "only screen and (min-width: 1024px) and (max-height: 1366px)  and (orientation: landscape)  and (-webkit-min-device-pixel-ratio: 1.5)";
+$iPad: "only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)";
+$desktops: "(min-width: 992px) and (max-width: 1199px)";
+$static_desktops: "(min-width: 992px) and (max-width: 1460px)";
+$large_device:"(min-width: 1200px)";

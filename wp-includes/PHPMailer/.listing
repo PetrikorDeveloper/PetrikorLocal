@@ -1,0 +1,5 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 .
+drwxr-xr-x   26 petriko1   petriko1        12288 Apr 29 10:59 ..
+-rw-r--r--    1 petriko1   petriko1         1240 Apr  9 22:47 Exception.php
+-rw-r--r--    1 petriko1   petriko1       176260 Apr  9 22:47 PHPMailer.php
+-rw-r--r--    1 petriko1   petriko1        47253 Apr  9 22:47 SMTP.php

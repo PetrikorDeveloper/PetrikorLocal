@@ -1,0 +1,1 @@
+<img id="svgloader" style="width: 150px;  margin: auto;" src="https://petrikorsolutions.com/wp-content/uploads/2022/10/loader-green.gif"/>

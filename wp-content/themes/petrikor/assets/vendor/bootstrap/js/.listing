@@ -1,0 +1,10 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 .
+drwxr-xr-x    4 petriko1   petriko1         4096 Oct 27  2021 ..
+-rw-r--r--    1 petriko1   petriko1       235461 Mar 31 10:17 bootstrap.bundle.js
+-rw-r--r--    1 petriko1   petriko1       410255 Feb 13  2021 bootstrap.bundle.js.map
+-rw-r--r--    1 petriko1   petriko1        80934 Mar 31 10:20 bootstrap.bundle.min.js
+-rw-r--r--    1 petriko1   petriko1       315990 Feb 13  2021 bootstrap.bundle.min.js.map
+-rw-r--r--    1 petriko1   petriko1       139976 Mar 31 09:48 bootstrap.js
+-rw-r--r--    1 petriko1   petriko1       255140 Feb 13  2021 bootstrap.js.map
+-rw-r--r--    1 petriko1   petriko1        60051 Mar 31 10:21 bootstrap.min.js
+-rw-r--r--    1 petriko1   petriko1       192261 Feb 13  2021 bootstrap.min.js.map

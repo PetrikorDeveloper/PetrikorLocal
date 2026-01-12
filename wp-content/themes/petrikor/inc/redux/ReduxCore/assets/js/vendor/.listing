@@ -1,0 +1,13 @@
+drwxr-xr-x    4 petriko1   petriko1         4096 Oct 27  2021 .
+drwxr-xr-x    4 petriko1   petriko1         4096 Oct 27  2021 ..
+-rw-r--r--    1 petriko1   petriko1         2427 Mar 31 11:17 cookie.js
+-rw-r--r--    1 petriko1   petriko1        24095 Mar 31 11:20 jquery.alphanum.js
+-rw-r--r--    1 petriko1   petriko1         1718 Mar 31 11:25 jquery.serializeForm.js
+-rw-r--r--    1 petriko1   petriko1         2642 Mar 31 11:25 jquery.typewatch.js
+-rw-r--r--    1 petriko1   petriko1        11092 Mar 31 11:24 jsonview.js
+-rw-r--r--    1 petriko1   petriko1         5608 Mar 31 11:20 jsonview.min.js
+-rw-r--r--    1 petriko1   petriko1        10353 Mar 31 11:28 lte-ie7.js
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 qtip
+-rw-r--r--    1 petriko1   petriko1         5776 Mar 31 11:20 redux.select2.sortable.js
+-rw-r--r--    1 petriko1   petriko1         1922 Mar 31 11:21 redux.select2.sortable.min.js
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 spectrum

@@ -1,0 +1,141 @@
+17-08-2023 11:42:52 - INFO  - 7.8.9 - 16.5 MB/256 MB - fatimasalsam > Start upgrade from 7.0.0
+17-08-2023 11:42:52 - INFO  - 7.8.9 - 17.0 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_emails`] => Created table `tba_newsletter_emails`
+)
+
+17-08-2023 11:42:52 - INFO  - 7.8.9 - 17.0 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_sent`] => Created table `tba_newsletter_sent`
+)
+
+17-08-2023 11:42:52 - INFO  - 7.8.9 - 16.9 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter`] => Created table `tba_newsletter`
+    [tba_newsletter.source] => Added column tba_newsletter.source
+)
+
+17-08-2023 11:42:52 - INFO  - 7.8.9 - 17.0 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_user_logs`] => Created table `tba_newsletter_user_logs`
+)
+
+17-08-2023 11:42:52 - INFO  - 7.8.9 - 17.0 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_stats`] => Created table `tba_newsletter_stats`
+)
+
+17-08-2023 11:42:52 - INFO  - 7.8.9 - 17.0 MB/256 MB - fatimasalsam > Backing up options of 7.0.0
+17-08-2023 11:42:53 - INFO  - 7.8.9 - 17.1 MB/256 MB - fatimasalsam > Migration to 7.8.0
+17-08-2023 11:42:53 - INFO  - 7.8.9 - 17.1 MB/256 MB - fatimasalsam > End
+18-08-2023 07:14:21 - INFO  - 7.9.0 - 15.9 MB/256 MB - [cron] > Start upgrade from 7.8.9
+18-08-2023 07:14:21 - INFO  - 7.9.0 - 16.3 MB/256 MB - [cron] > Array
+(
+    [`tba_newsletter_emails`] => Created table `tba_newsletter_emails`
+)
+
+18-08-2023 07:14:21 - INFO  - 7.9.0 - 16.3 MB/256 MB - [cron] > Array
+(
+    [`tba_newsletter_sent`] => Created table `tba_newsletter_sent`
+)
+
+18-08-2023 07:14:21 - INFO  - 7.9.0 - 16.3 MB/256 MB - [cron] > Array
+(
+    [`tba_newsletter`] => Created table `tba_newsletter`
+)
+
+18-08-2023 07:14:21 - INFO  - 7.9.0 - 16.3 MB/256 MB - [cron] > Array
+(
+    [`tba_newsletter_user_logs`] => Created table `tba_newsletter_user_logs`
+)
+
+18-08-2023 07:14:21 - INFO  - 7.9.0 - 16.3 MB/256 MB - [cron] > Array
+(
+    [`tba_newsletter_stats`] => Created table `tba_newsletter_stats`
+)
+
+18-08-2023 07:14:21 - INFO  - 7.9.0 - 16.3 MB/256 MB - [cron] > Backing up options of 7.8.9
+18-08-2023 07:14:21 - INFO  - 7.9.0 - 16.3 MB/256 MB - [cron] > End
+24-08-2023 11:48:14 - INFO  - 7.9.1 - 16.4 MB/256 MB - fatimasalsam > Start upgrade from 7.9.0
+24-08-2023 11:48:14 - INFO  - 7.9.1 - 16.7 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_emails`] => Created table `tba_newsletter_emails`
+)
+
+24-08-2023 11:48:14 - INFO  - 7.9.1 - 16.8 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_sent`] => Created table `tba_newsletter_sent`
+)
+
+24-08-2023 11:48:14 - INFO  - 7.9.1 - 16.8 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter`] => Created table `tba_newsletter`
+)
+
+24-08-2023 11:48:14 - INFO  - 7.9.1 - 16.7 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_user_logs`] => Created table `tba_newsletter_user_logs`
+)
+
+24-08-2023 11:48:14 - INFO  - 7.9.1 - 16.8 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_stats`] => Created table `tba_newsletter_stats`
+)
+
+24-08-2023 11:48:14 - INFO  - 7.9.1 - 16.7 MB/256 MB - fatimasalsam > Backing up options of 7.9.0
+24-08-2023 11:48:14 - INFO  - 7.9.1 - 16.8 MB/256 MB - fatimasalsam > End
+24-08-2023 11:48:27 - INFO  - 7.9.1 - 18.7 MB/256 MB - fatimasalsam > Start upgrade from 7.9.0
+24-08-2023 11:48:27 - INFO  - 7.9.1 - 18.8 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_emails`] => Created table `tba_newsletter_emails`
+)
+
+24-08-2023 11:48:27 - INFO  - 7.9.1 - 18.8 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_sent`] => Created table `tba_newsletter_sent`
+)
+
+24-08-2023 11:48:27 - INFO  - 7.9.1 - 18.9 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter`] => Created table `tba_newsletter`
+)
+
+24-08-2023 11:48:27 - INFO  - 7.9.1 - 18.8 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_user_logs`] => Created table `tba_newsletter_user_logs`
+)
+
+24-08-2023 11:48:27 - INFO  - 7.9.1 - 18.8 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_stats`] => Created table `tba_newsletter_stats`
+)
+
+24-08-2023 11:48:27 - INFO  - 7.9.1 - 18.8 MB/256 MB - fatimasalsam > End
+31-08-2023 07:49:08 - INFO  - 7.9.2 - 16.3 MB/256 MB - fatimasalsam > Start upgrade from 7.9.1
+31-08-2023 07:49:08 - INFO  - 7.9.2 - 16.7 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_emails`] => Created table `tba_newsletter_emails`
+)
+
+31-08-2023 07:49:08 - INFO  - 7.9.2 - 16.7 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_sent`] => Created table `tba_newsletter_sent`
+)
+
+31-08-2023 07:49:08 - INFO  - 7.9.2 - 16.7 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter`] => Created table `tba_newsletter`
+)
+
+31-08-2023 07:49:08 - INFO  - 7.9.2 - 16.7 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_user_logs`] => Created table `tba_newsletter_user_logs`
+)
+
+31-08-2023 07:49:08 - INFO  - 7.9.2 - 16.7 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_stats`] => Created table `tba_newsletter_stats`
+)
+
+31-08-2023 07:49:08 - INFO  - 7.9.2 - 16.7 MB/256 MB - fatimasalsam > Backing up options of 7.9.1
+31-08-2023 07:49:08 - INFO  - 7.9.2 - 16.8 MB/256 MB - fatimasalsam > End

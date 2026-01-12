@@ -1,0 +1,13 @@
+drwxr-xr-x    4 petriko1   petriko1         4096 May  5 16:23 .
+drwxr-xr-x    8 petriko1   petriko1         4096 Dec 14 18:00 ..
+-rw-r--r--    1 petriko1   petriko1          687 May  5 16:11 .htaccess
+-rw-r--r--    1 petriko1   petriko1         3662 May  5 16:11 autoptimize_31c89dc19d0dcd723bb176a478e23b5e.img
+-rw-r--r--    1 petriko1   petriko1         4946 May  5 16:11 autoptimize_46b351df72ee6f127c7696dedbb23c93.img
+-rw-r--r--    1 petriko1   petriko1         4230 May  5 16:11 autoptimize_4adeb37dd27389e6d2ab58f086ef96e3.img
+-rw-r--r--    1 petriko1   petriko1         4330 May  5 16:23 autoptimize_4befbd5ec95293035353aba7b8b9ab40.img
+-rw-r--r--    1 petriko1   petriko1         2790 May  5 16:11 autoptimize_8a9465e469709dca4454f3f6222fc020.img
+-rw-r--r--    1 petriko1   petriko1         3418 May  5 16:23 autoptimize_b00e80dbc53ed94d8fdb711d352c2471.img
+-rw-r--r--    1 petriko1   petriko1          234 May  5 16:23 autoptimize_cc73656c387b2cdcb9dac06b9eb5d6a5.img
+drwxr-xr-x    2 petriko1   petriko1        36864 May 17 15:07 css
+-rw-r--r--    1 petriko1   petriko1          189 Nov  4  2021 index.html
+drwxr-xr-x    2 petriko1   petriko1        12288 May  5 16:23 js

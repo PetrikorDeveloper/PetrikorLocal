@@ -1,0 +1,12 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 .
+drwxr-xr-x    8 petriko1   petriko1         4096 Oct 27  2021 ..
+-rw-r--r--    1 petriko1   petriko1         3815 Feb 13  2021 ___clouds.scss
+-rw-r--r--    1 petriko1   petriko1         2278 Feb 13  2021 __clouds.scss
+-rw-r--r--    1 petriko1   petriko1          327 Feb 13  2021 _colors.scss
+-rw-r--r--    1 petriko1   petriko1          423 Feb 13  2021 _fonts.scss
+-rw-r--r--    1 petriko1   petriko1           66 Feb 13  2021 _imports.scss
+-rw-r--r--    1 petriko1   petriko1          965 Feb 13  2021 _responsive.scss
+-rw-r--r--    1 petriko1   petriko1         2921 Feb 13  2021 clouds.scss
+-rw-r--r--    1 petriko1   petriko1        31402 Nov  2  2021 main.scss
+-rw-r--r--    1 petriko1   petriko1         9008 Feb 13  2021 sidemenu-en.scss
+-rw-r--r--    1 petriko1   petriko1         9881 Feb 13  2021 slick.scss

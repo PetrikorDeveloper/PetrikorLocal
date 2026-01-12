@@ -1,0 +1,13 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Apr  9 22:47 .
+drwxr-xr-x   26 petriko1   petriko1        12288 Apr 29 10:59 ..
+-rw-r--r--    1 petriko1   petriko1         1726 Apr  9 22:47 align.php
+-rw-r--r--    1 petriko1   petriko1         6067 Apr  9 22:47 border.php
+-rw-r--r--    1 petriko1   petriko1         5603 Apr  9 22:47 colors.php
+-rw-r--r--    1 petriko1   petriko1         1692 Apr 15  2021 custom-classname.php
+-rw-r--r--    1 petriko1   petriko1         2729 Apr  9 22:47 dimensions.php
+-rw-r--r--    1 petriko1   petriko1        15882 Apr  9 22:47 duotone.php
+-rw-r--r--    1 petriko1   petriko1         2477 Apr  9 22:47 elements.php
+-rw-r--r--    1 petriko1   petriko1         1771 Apr 15  2021 generated-classname.php
+-rw-r--r--    1 petriko1   petriko1         8470 Apr  9 22:47 layout.php
+-rw-r--r--    1 petriko1   petriko1         3229 Apr  9 22:47 spacing.php
+-rw-r--r--    1 petriko1   petriko1         8656 Apr  9 22:47 typography.php

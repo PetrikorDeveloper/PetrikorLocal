@@ -1,0 +1,12 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 .
+drwxr-xr-x   26 petriko1   petriko1        12288 Apr 29 10:59 ..
+-rw-r--r--    1 petriko1   petriko1         5973 Nov  8  2017 byte_safe_strings.php
+-rw-r--r--    1 petriko1   petriko1         2630 Nov  8  2017 cast_to_int.php
+-rw-r--r--    1 petriko1   petriko1         1697 Nov  8  2017 error_polyfill.php
+-rw-r--r--    1 petriko1   petriko1         7687 Nov  8  2017 random.php
+-rw-r--r--    1 petriko1   petriko1         2903 Nov  8  2017 random_bytes_com_dotnet.php
+-rw-r--r--    1 petriko1   petriko1         5440 Nov  8  2017 random_bytes_dev_urandom.php
+-rw-r--r--    1 petriko1   petriko1         2836 Nov  8  2017 random_bytes_libsodium.php
+-rw-r--r--    1 petriko1   petriko1         2894 Nov  8  2017 random_bytes_libsodium_legacy.php
+-rw-r--r--    1 petriko1   petriko1         2521 Nov  8  2017 random_bytes_mcrypt.php
+-rw-r--r--    1 petriko1   petriko1         6262 Nov  8  2017 random_int.php

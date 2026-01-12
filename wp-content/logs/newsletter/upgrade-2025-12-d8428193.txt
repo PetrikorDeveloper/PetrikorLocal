@@ -1,0 +1,39 @@
+11-12-2025 09:57:43 - INFO  - 9.1.0 - 15.6 MB/256 MB - fatimasalsam > Start upgrade from 9.0.7
+11-12-2025 09:57:43 - INFO  - 9.1.0 - 15.5 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_emails`] => Created table `tba_newsletter_emails`
+)
+
+11-12-2025 09:57:43 - INFO  - 9.1.0 - 15.5 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_sent`] => Created table `tba_newsletter_sent`
+)
+
+11-12-2025 09:57:43 - INFO  - 9.1.0 - 15.5 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter`] => Created table `tba_newsletter`
+)
+
+11-12-2025 09:57:43 - INFO  - 9.1.0 - 15.5 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_user_logs`] => Created table `tba_newsletter_user_logs`
+)
+
+11-12-2025 09:57:43 - INFO  - 9.1.0 - 15.5 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_user_meta`] => Created table `tba_newsletter_user_meta`
+)
+
+11-12-2025 09:57:43 - INFO  - 9.1.0 - 15.5 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_stats`] => Created table `tba_newsletter_stats`
+)
+
+11-12-2025 09:57:43 - INFO  - 9.1.0 - 15.5 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_logs`] => Created table `tba_newsletter_logs`
+)
+
+11-12-2025 09:57:43 - INFO  - 9.1.0 - 15.5 MB/256 MB - fatimasalsam > Deleting settings backup newsletter_backup_8.9.3
+11-12-2025 09:57:43 - INFO  - 9.1.0 - 15.5 MB/256 MB - fatimasalsam > Backing up options of 9.0.7
+11-12-2025 09:57:43 - INFO  - 9.1.0 - 15.7 MB/256 MB - fatimasalsam > End

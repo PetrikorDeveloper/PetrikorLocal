@@ -1,0 +1,17 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 .
+drwxr-xr-x    4 petriko1   petriko1         4096 Oct 27  2021 ..
+-rw-r--r--    1 petriko1   petriko1          749 Feb 13  2021 _animated.scss
+-rw-r--r--    1 petriko1   petriko1          348 Feb 13  2021 _bordered-pulled.scss
+-rw-r--r--    1 petriko1   petriko1          530 Feb 13  2021 _core.scss
+-rw-r--r--    1 petriko1   petriko1          126 Feb 13  2021 _fixed-width.scss
+-rw-r--r--    1 petriko1   petriko1        33549 Feb 13  2021 _icons.scss
+-rw-r--r--    1 petriko1   petriko1          388 Feb 13  2021 _larger.scss
+-rw-r--r--    1 petriko1   petriko1          397 Feb 13  2021 _list.scss
+-rw-r--r--    1 petriko1   petriko1         1031 Feb 13  2021 _mixins.scss
+-rw-r--r--    1 petriko1   petriko1          709 Feb 13  2021 _path.scss
+-rw-r--r--    1 petriko1   petriko1          692 Feb 13  2021 _rotated-flipped.scss
+-rw-r--r--    1 petriko1   petriko1          502 Feb 13  2021 _stacked.scss
+-rw-r--r--    1 petriko1   petriko1         8912 Feb 13  2021 _variables.scss
+-rw-r--r--    1 petriko1   petriko1        21181 Feb 13  2021 elusive-icons.css
+-rw-r--r--    1 petriko1   petriko1        13796 Feb 13  2021 elusive-icons.css.map
+-rw-r--r--    1 petriko1   petriko1          435 Feb 13  2021 elusive-icons.scss

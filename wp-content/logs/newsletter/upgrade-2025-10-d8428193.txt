@@ -1,0 +1,191 @@
+06-10-2025 08:39:49 - INFO  - 8.9.9 - 11.7 MB/256 MB - [cron] > Start upgrade from 8.9.4
+06-10-2025 08:39:49 - INFO  - 8.9.9 - 11.8 MB/256 MB - [cron] > Array
+(
+    [`tba_newsletter_emails`] => Created table `tba_newsletter_emails`
+)
+
+06-10-2025 08:39:49 - INFO  - 8.9.9 - 11.8 MB/256 MB - [cron] > Array
+(
+    [`tba_newsletter_sent`] => Created table `tba_newsletter_sent`
+)
+
+06-10-2025 08:39:49 - INFO  - 8.9.9 - 11.8 MB/256 MB - [cron] > Array
+(
+    [`tba_newsletter`] => Created table `tba_newsletter`
+)
+
+06-10-2025 08:39:49 - INFO  - 8.9.9 - 11.8 MB/256 MB - [cron] > Array
+(
+    [`tba_newsletter_user_logs`] => Created table `tba_newsletter_user_logs`
+)
+
+06-10-2025 08:39:49 - INFO  - 8.9.9 - 11.8 MB/256 MB - [cron] > Array
+(
+    [`tba_newsletter_user_meta`] => Created table `tba_newsletter_user_meta`
+)
+
+06-10-2025 08:39:49 - INFO  - 8.9.9 - 11.8 MB/256 MB - [cron] > Array
+(
+    [`tba_newsletter_stats`] => Created table `tba_newsletter_stats`
+)
+
+06-10-2025 08:39:49 - INFO  - 8.9.9 - 11.8 MB/256 MB - [cron] > Array
+(
+    [`tba_newsletter_logs`] => Created table `tba_newsletter_logs`
+)
+
+06-10-2025 08:39:49 - INFO  - 8.9.9 - 11.8 MB/256 MB - [cron] > Deleting settings backup newsletter_backup_7.9.2
+06-10-2025 08:39:49 - INFO  - 8.9.9 - 11.8 MB/256 MB - [cron] > End
+14-10-2025 12:00:30 - INFO  - 9.0.0 - 13.7 MB/256 MB -  > Start upgrade from 8.9.9
+14-10-2025 12:00:31 - INFO  - 9.0.0 - 13.8 MB/256 MB -  > Array
+(
+    [`tba_newsletter_emails`] => Created table `tba_newsletter_emails`
+)
+
+14-10-2025 12:00:31 - INFO  - 9.0.0 - 13.8 MB/256 MB -  > Array
+(
+    [`tba_newsletter_sent`] => Created table `tba_newsletter_sent`
+)
+
+14-10-2025 12:00:31 - INFO  - 9.0.0 - 13.8 MB/256 MB -  > Array
+(
+    [`tba_newsletter`] => Created table `tba_newsletter`
+)
+
+14-10-2025 12:00:31 - INFO  - 9.0.0 - 13.8 MB/256 MB -  > Array
+(
+    [`tba_newsletter_user_logs`] => Created table `tba_newsletter_user_logs`
+)
+
+14-10-2025 12:00:31 - INFO  - 9.0.0 - 13.8 MB/256 MB -  > Array
+(
+    [`tba_newsletter_user_meta`] => Created table `tba_newsletter_user_meta`
+)
+
+14-10-2025 12:00:31 - INFO  - 9.0.0 - 13.8 MB/256 MB -  > Array
+(
+    [`tba_newsletter_stats`] => Created table `tba_newsletter_stats`
+)
+
+14-10-2025 12:00:31 - INFO  - 9.0.0 - 13.8 MB/256 MB -  > Array
+(
+    [`tba_newsletter_logs`] => Created table `tba_newsletter_logs`
+)
+
+14-10-2025 12:00:31 - INFO  - 9.0.0 - 13.8 MB/256 MB -  > Backing up options of 8.9.9
+14-10-2025 12:00:31 - INFO  - 9.0.0 - 14.1 MB/256 MB -  > End
+16-10-2025 10:03:44 - INFO  - 9.0.4 - 13.9 MB/256 MB - fatimasalsam > Start upgrade from 9.0.0
+16-10-2025 10:03:44 - INFO  - 9.0.4 - 13.9 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_emails`] => Created table `tba_newsletter_emails`
+)
+
+16-10-2025 10:03:44 - INFO  - 9.0.4 - 13.9 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_sent`] => Created table `tba_newsletter_sent`
+)
+
+16-10-2025 10:03:44 - INFO  - 9.0.4 - 13.9 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter`] => Created table `tba_newsletter`
+)
+
+16-10-2025 10:03:44 - INFO  - 9.0.4 - 13.9 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_user_logs`] => Created table `tba_newsletter_user_logs`
+)
+
+16-10-2025 10:03:44 - INFO  - 9.0.4 - 13.9 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_user_meta`] => Created table `tba_newsletter_user_meta`
+)
+
+16-10-2025 10:03:44 - INFO  - 9.0.4 - 13.9 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_stats`] => Created table `tba_newsletter_stats`
+)
+
+16-10-2025 10:03:44 - INFO  - 9.0.4 - 13.9 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_logs`] => Created table `tba_newsletter_logs`
+)
+
+16-10-2025 10:03:44 - INFO  - 9.0.4 - 13.9 MB/256 MB - fatimasalsam > Deleting settings backup newsletter_backup_8.9.0
+16-10-2025 10:03:44 - INFO  - 9.0.4 - 13.9 MB/256 MB - fatimasalsam > Backing up options of 9.0.0
+16-10-2025 10:03:44 - INFO  - 9.0.4 - 14.2 MB/256 MB - fatimasalsam > End
+16-10-2025 10:03:45 - INFO  - 9.0.4 - 14.1 MB/256 MB - fatimasalsam > Start upgrade from 9.0.0
+16-10-2025 10:03:45 - INFO  - 9.0.4 - 14.1 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_emails`] => Created table `tba_newsletter_emails`
+)
+
+16-10-2025 10:03:45 - INFO  - 9.0.4 - 14.1 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_sent`] => Created table `tba_newsletter_sent`
+)
+
+16-10-2025 10:03:45 - INFO  - 9.0.4 - 14.1 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter`] => Created table `tba_newsletter`
+)
+
+16-10-2025 10:03:45 - INFO  - 9.0.4 - 14.1 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_user_logs`] => Created table `tba_newsletter_user_logs`
+)
+
+16-10-2025 10:03:45 - INFO  - 9.0.4 - 14.1 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_user_meta`] => Created table `tba_newsletter_user_meta`
+)
+
+16-10-2025 10:03:45 - INFO  - 9.0.4 - 14.1 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_stats`] => Created table `tba_newsletter_stats`
+)
+
+16-10-2025 10:03:45 - INFO  - 9.0.4 - 14.1 MB/256 MB - fatimasalsam > Array
+(
+    [`tba_newsletter_logs`] => Created table `tba_newsletter_logs`
+)
+
+16-10-2025 10:03:45 - INFO  - 9.0.4 - 14.1 MB/256 MB - fatimasalsam > Deleting settings backup newsletter_backup_8.9.1
+16-10-2025 10:03:45 - INFO  - 9.0.4 - 14.2 MB/256 MB - fatimasalsam > End
+29-10-2025 08:27:30 - INFO  - 9.0.5 - 13.3 MB/256 MB -  > Start upgrade from 9.0.4
+29-10-2025 08:27:30 - INFO  - 9.0.5 - 13.3 MB/256 MB -  > Array
+(
+    [`tba_newsletter_emails`] => Created table `tba_newsletter_emails`
+)
+
+29-10-2025 08:27:30 - INFO  - 9.0.5 - 13.3 MB/256 MB -  > Array
+(
+    [`tba_newsletter_sent`] => Created table `tba_newsletter_sent`
+)
+
+29-10-2025 08:27:30 - INFO  - 9.0.5 - 13.3 MB/256 MB -  > Array
+(
+    [`tba_newsletter`] => Created table `tba_newsletter`
+)
+
+29-10-2025 08:27:30 - INFO  - 9.0.5 - 13.3 MB/256 MB -  > Array
+(
+    [`tba_newsletter_user_logs`] => Created table `tba_newsletter_user_logs`
+)
+
+29-10-2025 08:27:30 - INFO  - 9.0.5 - 13.3 MB/256 MB -  > Array
+(
+    [`tba_newsletter_user_meta`] => Created table `tba_newsletter_user_meta`
+)
+
+29-10-2025 08:27:30 - INFO  - 9.0.5 - 13.3 MB/256 MB -  > Array
+(
+    [`tba_newsletter_stats`] => Created table `tba_newsletter_stats`
+)
+
+29-10-2025 08:27:30 - INFO  - 9.0.5 - 13.3 MB/256 MB -  > Array
+(
+    [`tba_newsletter_logs`] => Created table `tba_newsletter_logs`
+)
+
+29-10-2025 08:27:30 - INFO  - 9.0.5 - 13.3 MB/256 MB -  > Backing up options of 9.0.4
+29-10-2025 08:27:30 - INFO  - 9.0.5 - 13.6 MB/256 MB -  > End

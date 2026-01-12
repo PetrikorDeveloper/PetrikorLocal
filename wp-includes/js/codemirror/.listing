@@ -1,0 +1,10 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 .
+drwxr-xr-x   13 petriko1   petriko1         4096 Sep  9  2021 ..
+-rw-r--r--    1 petriko1   petriko1        15899 Sep 13  2017 codemirror.min.css
+-rw-r--r--    1 petriko1   petriko1       585414 Apr  9 22:47 codemirror.min.js
+-rw-r--r--    1 petriko1   petriko1       366769 Apr  9 22:47 csslint.js
+-rw-r--r--    1 petriko1   petriko1       283149 Apr  9 22:47 esprima.js
+-rw-r--r--    1 petriko1   petriko1         1002 Apr  9 22:47 fakejshint.js
+-rw-r--r--    1 petriko1   petriko1          984 Apr  9 22:47 htmlhint-kses.js
+-rw-r--r--    1 petriko1   petriko1        17735 Apr  9 22:47 htmlhint.js
+-rw-r--r--    1 petriko1   petriko1        16189 Apr  9 22:47 jsonlint.js

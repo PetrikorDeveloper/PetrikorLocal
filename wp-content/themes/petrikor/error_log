@@ -1,0 +1,16 @@
+[21-May-2021 20:43:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/petriko1/public_html/wp-content/themes/petrikor/404.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/petriko1/public_html/wp-content/themes/petrikor/404.php on line 7
+[22-May-2021 09:42:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/petriko1/public_html/wp-content/themes/petrikor/404.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/petriko1/public_html/wp-content/themes/petrikor/404.php on line 7
+[08-Mar-2022 10:12:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/petriko1/public_html/wp-content/themes/petrikor/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/petriko1/public_html/wp-content/themes/petrikor/index.php on line 13
+[08-Mar-2022 10:12:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/petriko1/public_html/wp-content/themes/petrikor/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/petriko1/public_html/wp-content/themes/petrikor/index.php on line 13

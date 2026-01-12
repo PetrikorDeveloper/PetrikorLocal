@@ -1,0 +1,9 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 .
+drwxr-xr-x    5 petriko1   petriko1         4096 Sep  9  2021 ..
+-rw-r--r--    1 petriko1   petriko1         4161 Dec  9  2019 constants.php
+-rw-r--r--    1 petriko1   petriko1         1345 Dec  9  2019 namespaced.php
+-rw-r--r--    1 petriko1   petriko1        41709 May 25  2021 php72compat.php
+-rw-r--r--    1 petriko1   petriko1         4597 May 25  2021 php72compat_const.php
+-rw-r--r--    1 petriko1   petriko1         7210 May 25  2021 ristretto255.php
+-rw-r--r--    1 petriko1   petriko1        24536 May 25  2021 sodium_compat.php
+-rw-r--r--    1 petriko1   petriko1         1287 May 25  2021 stream-xchacha20.php

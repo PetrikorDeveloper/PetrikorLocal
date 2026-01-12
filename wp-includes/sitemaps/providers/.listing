@@ -1,0 +1,5 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 .
+drwxr-xr-x    3 petriko1   petriko1         4096 Sep  9  2021 ..
+-rw-r--r--    1 petriko1   petriko1         6430 Apr  9 22:47 class-wp-sitemaps-posts.php
+-rw-r--r--    1 petriko1   petriko1         5784 Apr  9 22:47 class-wp-sitemaps-taxonomies.php
+-rw-r--r--    1 petriko1   petriko1         4136 Apr  9 22:47 class-wp-sitemaps-users.php

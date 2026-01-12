@@ -1,0 +1,6 @@
+drwxr-xr-x    3 petriko1   petriko1         4096 Oct 27  2021 .
+drwxr-xr-x    6 petriko1   petriko1         4096 Oct 27  2021 ..
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 images
+-rw-r--r--    1 petriko1   petriko1        83536 Feb 13  2021 jquery-ui-1.10.0.custom.css
+-rw-r--r--    1 petriko1   petriko1        39276 Feb 13  2021 jquery-ui-1.10.0.custom.less
+-rw-r--r--    1 petriko1   petriko1        39322 Feb 13  2021 jquery-ui-1.10.0.custom.scss

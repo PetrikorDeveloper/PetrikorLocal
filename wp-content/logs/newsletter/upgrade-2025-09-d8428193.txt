@@ -1,0 +1,68 @@
+18-09-2025 09:29:41 - INFO  - 7.9.2 - 12.5 MB/256 MB -  > Start upgrade from 8.9.4
+18-09-2025 09:29:49 - INFO  - 7.9.2 - 12.9 MB/256 MB -  > Array
+(
+    [`tba_newsletter_emails`] => Created table `tba_newsletter_emails`
+)
+
+18-09-2025 09:29:49 - INFO  - 7.9.2 - 12.9 MB/256 MB -  > Array
+(
+    [`tba_newsletter_sent`] => Created table `tba_newsletter_sent`
+)
+
+18-09-2025 09:29:50 - INFO  - 7.9.2 - 12.9 MB/256 MB -  > Array
+(
+    [`tba_newsletter`] => Created table `tba_newsletter`
+)
+
+18-09-2025 09:29:50 - INFO  - 7.9.2 - 12.9 MB/256 MB -  > Array
+(
+    [`tba_newsletter_user_logs`] => Created table `tba_newsletter_user_logs`
+)
+
+18-09-2025 09:29:50 - INFO  - 7.9.2 - 12.9 MB/256 MB -  > Array
+(
+    [`tba_newsletter_stats`] => Created table `tba_newsletter_stats`
+)
+
+18-09-2025 09:29:50 - INFO  - 7.9.2 - 12.9 MB/256 MB -  > Backing up options of 8.9.4
+18-09-2025 09:29:50 - INFO  - 7.9.2 - 13.0 MB/256 MB -  > End
+18-09-2025 15:09:34 - INFO  - 8.9.4 - 22.1 MB/256 MB -  > Start upgrade from 7.9.2
+18-09-2025 15:09:44 - INFO  - 8.9.4 - 22.5 MB/256 MB -  > Array
+(
+    [`tba_newsletter_emails`] => Created table `tba_newsletter_emails`
+)
+
+18-09-2025 15:09:44 - INFO  - 8.9.4 - 22.5 MB/256 MB -  > Array
+(
+    [`tba_newsletter_sent`] => Created table `tba_newsletter_sent`
+)
+
+18-09-2025 15:09:44 - INFO  - 8.9.4 - 22.5 MB/256 MB -  > Array
+(
+    [`tba_newsletter`] => Created table `tba_newsletter`
+)
+
+18-09-2025 15:09:44 - INFO  - 8.9.4 - 22.5 MB/256 MB -  > Array
+(
+    [`tba_newsletter_user_logs`] => Created table `tba_newsletter_user_logs`
+)
+
+18-09-2025 15:09:44 - INFO  - 8.9.4 - 22.5 MB/256 MB -  > Array
+(
+    [`tba_newsletter_user_meta`] => Created table `tba_newsletter_user_meta`
+)
+
+18-09-2025 15:09:44 - INFO  - 8.9.4 - 22.5 MB/256 MB -  > Array
+(
+    [`tba_newsletter_stats`] => Created table `tba_newsletter_stats`
+)
+
+18-09-2025 15:09:44 - INFO  - 8.9.4 - 22.5 MB/256 MB -  > Array
+(
+    [`tba_newsletter_logs`] => Created table `tba_newsletter_logs`
+)
+
+18-09-2025 15:09:44 - INFO  - 8.9.4 - 22.5 MB/256 MB -  > Deleting settings backup newsletter_backup_8.8.6
+18-09-2025 15:09:44 - INFO  - 8.9.4 - 22.5 MB/256 MB -  > Deleting settings backup newsletter_backup_8.8.7
+18-09-2025 15:09:44 - INFO  - 8.9.4 - 22.5 MB/256 MB -  > Backing up options of 7.9.2
+18-09-2025 15:09:44 - INFO  - 8.9.4 - 22.6 MB/256 MB -  > End

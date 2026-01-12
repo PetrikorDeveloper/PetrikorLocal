@@ -1,0 +1,9 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 .
+drwxr-xr-x   26 petriko1   petriko1        12288 Apr 29 10:59 ..
+-rw-r--r--    1 petriko1   petriko1         1001 Jul 16  2021 query-grid-posts.php
+-rw-r--r--    1 petriko1   petriko1         2016 Jun  8  2021 query-large-title-posts.php
+-rw-r--r--    1 petriko1   petriko1         1082 Apr  9 22:47 query-medium-posts.php
+-rw-r--r--    1 petriko1   petriko1         2062 Jun 25  2021 query-offset-posts.php
+-rw-r--r--    1 petriko1   petriko1         1205 Apr  9 22:47 query-small-posts.php
+-rw-r--r--    1 petriko1   petriko1          837 Apr  9 22:47 query-standard-posts.php
+-rw-r--r--    1 petriko1   petriko1          843 May 24  2021 social-links-shared-background-color.php

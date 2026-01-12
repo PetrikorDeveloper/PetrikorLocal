@@ -1,0 +1,11 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Apr 21 13:30 .
+drwxr-xr-x    6 petriko1   petriko1         4096 Oct 27  2021 ..
+-rw-r--r--    1 petriko1   petriko1         1489 Jun 23  2021 content-blog.php
+-rw-r--r--    1 petriko1   petriko1         2282 Dec  7 15:39 content-case-study.php
+-rw-r--r--    1 petriko1   petriko1         3705 Feb 13  2021 content-news.php
+-rw-r--r--    1 petriko1   petriko1         2999 Feb 13  2021 content-news_ticker.php
+-rw-r--r--    1 petriko1   petriko1          692 Feb 13  2021 content-none.php
+-rw-r--r--    1 petriko1   petriko1         2278 Jun 18  2021 content-portfolio.php
+-rw-r--r--    1 petriko1   petriko1        10606 Dec  9 13:32 content-single_portfolio.php
+-rw-r--r--    1 petriko1   petriko1        11874 Apr 21 13:30 content-single_service.php
+-rw-r--r--    1 petriko1   petriko1          407 Feb 13  2021 content.php

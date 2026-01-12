@@ -1,0 +1,16 @@
+drwxr-xr-x   16 petriko1   petriko1         4096 Apr  9 22:47 .
+drwxr-xr-x    3 petriko1   petriko1         4096 Sep  9  2021 ..
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 block-directory
+drwxr-xr-x    2 petriko1   petriko1         4096 Apr  9 22:47 block-editor
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 block-library
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 components
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 customize-widgets
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 edit-post
+drwxr-xr-x    2 petriko1   petriko1         4096 Apr  9 22:47 edit-site
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 edit-widgets
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 editor
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 format-library
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 list-reusable-blocks
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 nux
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 reusable-blocks
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 widgets

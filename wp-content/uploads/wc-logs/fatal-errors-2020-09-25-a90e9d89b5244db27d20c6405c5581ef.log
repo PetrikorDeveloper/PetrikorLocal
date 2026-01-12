@@ -1,0 +1,27 @@
+2020-09-25T10:50:30+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Template_Loader::unsupported_theme_title_filter(), 1 passed in /Applications/MAMP/htdocs/Teabah/wp-includes/class-wp-hook.php on line 287 and exactly 2 expected in /Applications/MAMP/htdocs/Teabah/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php:408
+Stack trace:
+#0 /Applications/MAMP/htdocs/Teabah/wp-includes/class-wp-hook.php(287): WC_Template_Loader::unsupported_theme_title_filter('My account')
+#1 /Applications/MAMP/htdocs/Teabah/wp-includes/plugin.php(206): WP_Hook->apply_filters('My account', Array)
+#2 /Applications/MAMP/htdocs/Teabah/wp-content/themes/Teabah/inc/front-assets/breadcrumb.php(46): apply_filters('the_title', 'My account')
+#3 /Applications/MAMP/htdocs/Teabah/wp-content/themes/Teabah/template-parts/page/content-page.php(30): get_hansel_and_gretel_breadcrumbs()
+#4 /Applications/MAMP/htdocs/Teabah/wp-includes/template.php(732): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Teabah/wp-includes/template.p in /Applications/MAMP/htdocs/Teabah/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php on line 408
+
+2020-09-25T10:51:09+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Template_Loader::unsupported_theme_title_filter(), 1 passed in /Applications/MAMP/htdocs/Teabah/wp-includes/class-wp-hook.php on line 287 and exactly 2 expected in /Applications/MAMP/htdocs/Teabah/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php:408
+Stack trace:
+#0 /Applications/MAMP/htdocs/Teabah/wp-includes/class-wp-hook.php(287): WC_Template_Loader::unsupported_theme_title_filter('My account')
+#1 /Applications/MAMP/htdocs/Teabah/wp-includes/plugin.php(206): WP_Hook->apply_filters('My account', Array)
+#2 /Applications/MAMP/htdocs/Teabah/wp-content/themes/Teabah/inc/front-assets/breadcrumb.php(46): apply_filters('the_title', 'My account')
+#3 /Applications/MAMP/htdocs/Teabah/wp-content/themes/Teabah/template-parts/page/content-page.php(30): get_hansel_and_gretel_breadcrumbs()
+#4 /Applications/MAMP/htdocs/Teabah/wp-includes/template.php(732): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Teabah/wp-includes/template.p in /Applications/MAMP/htdocs/Teabah/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php on line 408
+
+2020-09-25T10:51:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Template_Loader::unsupported_theme_title_filter(), 1 passed in /Applications/MAMP/htdocs/Teabah/wp-includes/class-wp-hook.php on line 287 and exactly 2 expected in /Applications/MAMP/htdocs/Teabah/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php:408
+Stack trace:
+#0 /Applications/MAMP/htdocs/Teabah/wp-includes/class-wp-hook.php(287): WC_Template_Loader::unsupported_theme_title_filter('My account')
+#1 /Applications/MAMP/htdocs/Teabah/wp-includes/plugin.php(206): WP_Hook->apply_filters('My account', Array)
+#2 /Applications/MAMP/htdocs/Teabah/wp-content/themes/Teabah/inc/front-assets/breadcrumb.php(46): apply_filters('the_title', 'My account')
+#3 /Applications/MAMP/htdocs/Teabah/wp-content/themes/Teabah/template-parts/page/content-page.php(30): get_hansel_and_gretel_breadcrumbs()
+#4 /Applications/MAMP/htdocs/Teabah/wp-includes/template.php(732): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Teabah/wp-includes/template.p in /Applications/MAMP/htdocs/Teabah/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php on line 408
+

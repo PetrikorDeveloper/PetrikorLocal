@@ -1,0 +1,11 @@
+drwxr-xr-x    5 petriko1   petriko1         4096 Oct 27  2021 .
+drwxr-xr-x    5 petriko1   petriko1         4096 Apr 19 14:13 ..
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 admin-assets
+-rw-r--r--    1 petriko1   petriko1         5035 Nov  2  2021 enqueue.php
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 front-assets
+-rw-r--r--    1 petriko1   petriko1         3559 Feb 13  2021 functions-admin.php
+drwxr-xr-x    4 petriko1   petriko1         4096 Oct 27  2021 redux
+-rw-r--r--    1 petriko1   petriko1          372 Feb 13  2021 shortcodes.php
+-rw-r--r--    1 petriko1   petriko1          140 Feb 13  2021 theme-layout.php
+-rw-r--r--    1 petriko1   petriko1        18998 Dec  7 16:50 theme-support.php
+-rw-r--r--    1 petriko1   petriko1          363 Feb 13  2021 widgets.php

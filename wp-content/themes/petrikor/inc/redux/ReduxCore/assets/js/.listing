@@ -1,0 +1,7 @@
+drwxr-xr-x    4 petriko1   petriko1         4096 Oct 27  2021 .
+drwxr-xr-x    5 petriko1   petriko1         4096 Oct 27  2021 ..
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 media
+-rw-r--r--    1 petriko1   petriko1        74165 Mar 31 11:07 redux.js
+-rw-r--r--    1 petriko1   petriko1        41575 Mar 31 11:13 redux.min.js
+drwxr-xr-x    4 petriko1   petriko1         4096 Oct 27  2021 vendor
+-rw-r--r--    1 petriko1   petriko1        10875 Mar 31 11:08 vendor.min.js

@@ -1,0 +1,9 @@
+drwxr-xr-x    5 petriko1   petriko1         4096 Sep  9  2021 .
+drwxr-xr-x   26 petriko1   petriko1        12288 Apr 29 10:59 ..
+-rw-r--r--    1 petriko1   petriko1          860 May 25  2021 LICENSE
+-rw-r--r--    1 petriko1   petriko1          890 Sep 27  2020 autoload-php7.php
+-rw-r--r--    1 petriko1   petriko1         2731 May 25  2021 autoload.php
+-rw-r--r--    1 petriko1   petriko1         1608 May 25  2021 composer.json
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 lib
+drwxr-xr-x    3 petriko1   petriko1         4096 Sep  9  2021 namespaced
+drwxr-xr-x    5 petriko1   petriko1         4096 Sep  9  2021 src

@@ -1,0 +1,16 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 .
+drwxr-xr-x    3 petriko1   petriko1         4096 Sep  9  2021 ..
+-rw-r--r--    1 petriko1   petriko1        15765 Apr  9 22:47 custom-html-widgets.js
+-rw-r--r--    1 petriko1   petriko1         5571 Apr  9 22:47 custom-html-widgets.min.js
+-rw-r--r--    1 petriko1   petriko1         4284 Apr  9 22:47 media-audio-widget.js
+-rw-r--r--    1 petriko1   petriko1         1447 Apr  9 22:47 media-audio-widget.min.js
+-rw-r--r--    1 petriko1   petriko1        10354 Apr  9 22:47 media-gallery-widget.js
+-rw-r--r--    1 petriko1   petriko1         3766 Apr  9 22:47 media-gallery-widget.min.js
+-rw-r--r--    1 petriko1   petriko1         5468 Apr  9 22:47 media-image-widget.js
+-rw-r--r--    1 petriko1   petriko1         2024 Apr  9 22:47 media-image-widget.min.js
+-rw-r--r--    1 petriko1   petriko1         7020 Apr  9 22:47 media-video-widget.js
+-rw-r--r--    1 petriko1   petriko1         2704 Apr  9 22:47 media-video-widget.min.js
+-rw-r--r--    1 petriko1   petriko1        42851 Apr  9 22:47 media-widgets.js
+-rw-r--r--    1 petriko1   petriko1        14253 Apr  9 22:47 media-widgets.min.js
+-rw-r--r--    1 petriko1   petriko1        18047 Apr  9 22:47 text-widgets.js
+-rw-r--r--    1 petriko1   petriko1         5854 Apr  9 22:47 text-widgets.min.js

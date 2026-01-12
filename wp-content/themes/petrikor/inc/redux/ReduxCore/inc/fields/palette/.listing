@@ -1,0 +1,7 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 .
+drwxr-xr-x   37 petriko1   petriko1         4096 Oct 27  2021 ..
+-rw-r--r--    1 petriko1   petriko1         1020 Feb 13  2021 field_palette.css
+-rw-r--r--    1 petriko1   petriko1         1595 Mar 31 11:26 field_palette.js
+-rw-r--r--    1 petriko1   petriko1          547 Mar 31 11:24 field_palette.min.js
+-rw-r--r--    1 petriko1   petriko1         3979 Feb 13  2021 field_palette.php
+-rw-r--r--    1 petriko1   petriko1         1759 Feb 13  2021 field_palette.scss

@@ -1,0 +1,1402 @@
+@import "_imports.scss";
+
+
+html {
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    margin-right: auto!important;
+}
+
+body {
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: $main-font;
+    font-size: 95%;
+    line-height: 24px;
+    font-weight: 400;
+  color: $second-color;
+    overflow: hidden;
+    position: relative;
+  background-size: cover;
+  background: $white url(../img/body.jpg) repeat fixed;
+}
+
+.preloader,
+.ajaxloader {
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fff !important;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    margin-top: 0px;
+    top: 0px;
+    left: 0;
+    justify-content: center;
+    overflow: hidden;
+
+    #svgloader {
+        width: 150px;
+        margin: auto;
+    }
+
+    @media #{$tablets},
+    #{$phone_portrait},
+    #{$phone_landscape},
+    #{$small_device} {
+        #svgloader {
+            width: 100px;
+        }
+    }
+
+    .cls-1,
+    .cls-3 {
+        fill: #fff;
+        transition: fill .8s;
+    }
+
+    .finished .cls-3 {
+        fill: $main-color;
+        transition: fill .8s
+    }
+
+    .end .cls-3 {
+        fill: $main-color;
+        transition: fill .8s
+    }
+}
+
+.ajaxloader {
+    position: absolute;
+    display: none;
+    border: 2px dashed $main-color;
+}
+
+.lang-and-toggle {
+    display: flex;
+
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    quotes: none;
+}
+
+figure {
+    margin: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+}
+
+legend {
+    white-space: normal;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+button,
+input {
+    line-height: normal;
+}
+
+input,
+textarea {
+    background-image: -webkit-linear-gradient(hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0));
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    line-height: 1;
+    cursor: pointer;
+    -webkit-appearance: button;
+    border: none;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    padding: 0;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*--------------------------------------------------------------- */
+/* Repeatable Patterns
+-------------------------------------------------------------- */
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333333;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    color: $main-color;
+    text-decoration: none;
+    outline: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $second-font;
+}
+ul,
+ol {
+    padding: 0;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+b,
+strong {
+    font-weight: 900;
+}
+
+uttonb,
+button:hover {
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.site-title {
+    font-size: 3rem;
+    color: $white;
+    text-transform: uppercase;
+    width: 350px;
+    font-family: $second-font;
+    font-weight: bold;
+    line-height: 1;
+    *{
+        font-size: 3rem;
+        font-family: $second-font;
+        font-weight: bold;
+    }
+    @media #{$iPad}{
+        font-size: 2rem;
+        *{
+            font-size: 2rem;
+        }
+    }
+
+    @media 
+    #{$tablets} {
+        font-size: 1.8rem;
+        *{
+            font-size: 1.8rem;
+        }
+    }
+    @media 
+    #{$phone_landscape},
+    #{$phone_portrait},
+    #{$small_device} {
+        font-size: 1.6rem;
+        *{
+            font-size: 1.6rem;
+        }
+    }
+}
+.site-btn{
+    margin: auto;
+    text-align: center;
+    background: $main-color;
+    border: 1px solid $main-color;
+    border-radius: 25px;
+    padding: 15px 40px;
+    color: $yellow!important;
+    font-weight: bold;
+    font-size: 18px;
+
+    @include transition(all 0.6s ease);
+
+    &::after {
+        content: unset;
+    }
+
+    &:focus,
+        &:hover{
+        padding: 15px 60px;
+        background: $white;
+        color: $main-color!important;
+    }
+}
+.gray {
+    color: $gray;
+}
+
+.petrikor-header {
+    height: 52px;
+    position: absolute;
+    z-index: 9980;
+    width: 100%;
+    .container {
+        position: relative;
+    }
+
+    .petrikor-main-menu {
+        position: absolute;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        top: 0;
+        z-index: 9981;
+        padding: 12px 0;
+        @media 
+        #{$tablets},
+        #{$phone_landscape},
+        #{$phone_portrait},
+        #{$small_device} {
+            z-index: 0;
+        }
+        ul {
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        li {
+            margin: 0;
+
+            a {
+                padding: 0 10px;
+                margin: 0 10px;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: $main-color;
+                transition: 0.4s;
+            }
+
+            // &:first-child {
+            //     a {
+            //         padding-left: 0;
+            //     }
+            // }
+            &:hover,
+                &:focus,
+                &.active {
+                a {
+                    background-color: $main-color;
+                    color: $yellow;
+                    padding: 20px 10px;
+                }
+            }
+            &:first-child {
+                &:hover,
+                    &:focus {
+                    a {
+                        background-color: $main-color;
+                        color: $yellow;
+                        padding: 20px 10px;
+                    }
+                }
+                &.active {
+                    a {
+                        background-color: transparent;
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+
+    &.petrikor-fixed-top {
+        background-color: $main-color;
+        position: fixed;
+        .petrikor-main-menu {
+            li {
+                a {
+                    color: $yellow;
+                }
+
+                &:hover,
+                    &:focus,&.active {
+                    a {
+                        background-color: $white;
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.after-section {
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -65px;
+        left: -80px;
+        background: url(../img/after-section.png) left center no-repeat;
+        background-size: contain;
+        z-index: 1;
+        width: 100%;
+        height: 175px;
+    }
+}
+
+.bg-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-image-fixed{
+    background-attachment: fixed;
+}
+.read-more {
+    position: relative;
+    transition: 0.4s;
+    padding-left: 20px;
+    color: $second-color !important;
+    width: 100%;
+    display: block;
+    &::after {
+        content: "\f04b";
+        position: absolute;
+        left: 0;
+        width: 25px;
+        height: 25px;
+        padding: 1px;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        transition: 0.4s;
+        color: $main-color;
+    }
+
+    span {
+        color: $second-color !important;
+    }
+
+    &:hover,
+        &:focus {
+        padding-left: 25px;
+        color: $main-color !important;
+
+        span {
+            color: $main-color !important;
+        }
+
+        &::after {
+            left: 5px;
+        }
+    }
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+
+    a {
+        @extend .read-more;
+        @media 
+        #{$phone_landscape},
+        #{$phone_portrait},
+        #{$small_device} {
+
+            // margin: 15px;
+        }
+    }
+}
+
+.top-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 750px;
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+    .site-title {
+        position: relative;
+        margin: auto;
+        text-align: center;
+        color: $main-color;
+        margin-top: 200px;
+        font-size: 2.3rem;
+        text-transform: uppercase;
+        width: 100%;
+        *{
+            font-size: 2.3rem;
+        }
+    }
+    @media 
+    #{$tablets},
+    #{$phone_landscape},
+    #{$phone_portrait},
+    #{$small_device} {
+        .site-title {
+            margin: auto;
+            font-size: 1.3rem;
+            *{
+                font-size: 1.3rem;
+            }
+        }
+        background-size: cover;
+        background-position: top;
+        background-attachment: scroll;
+    }
+    @media 
+    #{$iPad} {
+        min-height: 550px;
+    }
+    @media 
+    #{$tablets}{
+        min-height: 450px;
+    }
+    @media 
+    #{$phone_landscape},
+    #{$phone_portrait},
+    #{$small_device} {
+        min-height: 250px;
+    }
+}
+
+.get-to-section {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_full_capabilities-section {
+    .service {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        .icon {
+            background-size: contain;
+            width: 50px;
+            height: 50px;
+            padding: 30px;
+            -webkit-transition: -webkit-transform .6s ease-in-out;
+            transition: transform .6s ease-in-out;
+        }
+
+        .title {
+            color: $main-color;
+            font-weight: bold;
+        }
+
+        .content {
+            color: $black;
+        }
+
+        &:hover {
+            .icon {
+                -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg);
+            }
+        }
+    }
+}
+
+.we_work_with-section {
+    .work {
+        margin-bottom: 30px;
+
+        .icon {
+            background-size: contain;
+            width: 100px;
+            height: 130px;
+            padding: 30px;
+            -webkit-transition: -webkit-transform .6s ease-in-out;
+            transition: transform .6s ease-in-out;
+            filter: grayscale(100%);
+            margin: auto;
+        }
+
+        &:hover {
+            .icon {
+                filter: drop-shadow(2px 4px 6px black);
+            }
+        }
+    }
+}
+.slick-prev{
+    left: 0;  
+}
+.slick-next{
+    right: 0;
+}
+.lets_talk-section {
+    background-color: #50abb3;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+    .title,
+    a {
+        color: $yellow;
+        text-align: center;
+        font-weight: bold;
+        font-family: $second-font;
+    }
+    a{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    @media 
+    #{$phone_landscape},
+    #{$phone_portrait},
+    #{$small_device} {
+        *{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+.portfolio-section {
+    position: relative;
+    padding-bottom: 15px;
+    .cbp-l-filters-buttonCenter{
+        .cbp-filter-item{
+            background: unset;
+            border: 0;
+            color: black;
+            text-transform: uppercase;
+            position: relative;
+            font-size: 1.1rem;
+            &::after{
+                position: absolute;
+                content: '|';
+                top: 0;
+                right: -10px;
+            }
+            &:last-child{
+                &::after{
+                    display: none
+                }
+            }
+            &.cbp-filter-item-active{
+                color: $main-color;
+            } 
+        }
+        .cbp-filter-counter{
+            background-color: $main-color;
+            &::after{
+                border-top: 4px solid $main-color;
+            }
+        }
+    }
+    .cbp-l-caption-buttonLeft, .cbp-l-caption-buttonRight{
+        background-color: $main-color;
+        text-transform: uppercase;
+        &:focus,
+            &:hover
+            {
+            color: $yellow;
+        }
+    }
+    &::before,
+    &::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+    &::before{
+        right: -200px;
+        top: -162px;
+        background: url(../img/petrikor-after.png) left center no-repeat transparent;
+        background-size: cover;
+        height: 601px;
+        width: 501px;
+        transform: scale(1.5) rotate(-12deg);
+    }
+    &::after{
+        right: 0;
+        bottom: 0;
+        background: url(../img/after-section-3.png) center center no-repeat transparent;
+        background-size: contain;
+        height: 200px;
+    }
+}
+
+.contact-form {
+    min-height: 600px;
+    width: 100%;
+    background-image: url(../img/contact-form.jpg);
+    background-size: cover;
+    padding: 50px 0;
+    background-attachment: fixed;
+    .social-sec-box{
+        position: relative;
+        .social-sec{
+
+            background-image: url(../img/window.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 80%;
+            height: 450px;
+            margin: 60px auto;
+            @media 
+            #{$tablets},
+            #{$phone_landscape},
+            #{$phone_portrait},
+            #{$small_device} {
+                background-position: center;
+            }
+            .boxed{
+                position: relative;
+                &:after{
+                    content: '';
+                    position: absolute;
+                    left: -70px;
+                    top: 45px;
+                    background: url(../img/7abel_without_icon.png) left center no-repeat transparent;
+                    background-size: 100%;
+                    width: 125%;
+                    height: 65px;
+                    z-index: 4;
+                    @media 
+                    #{$iPad} {
+                        top: 38px;
+                        width: 140%;
+                        z-index: 0;
+                    }
+                    @media 
+                    #{$tablets},
+                    #{$phone_landscape},
+                    #{$phone_portrait},
+                    #{$small_device} {
+                        top: 35px;
+                        left: 0;
+                        width: 98%;
+                        z-index:0;
+                    }
+                }
+
+                .linkedin,
+                .instagram,
+                .facebook,
+                .twitter,
+                .behance,
+                .youtube,
+                .pinterest
+                {
+                    content: '';
+                    position: absolute;
+
+                    background-size: contain!important;
+                    width: 60px;
+                    height: 60px;
+                    left: 70px;
+                    top: 70px;
+                    z-index: 1;
+                    &:hover{
+                        filter: brightness(0.5);
+                    }
+                    @media 
+                    #{$iPad},
+                    #{$tablets},
+                    #{$phone_landscape},
+                    #{$phone_portrait},
+                    #{$small_device} {
+                        width: 55px;    
+                    }
+                }
+
+                .linkedin{
+                    background: url(../img/icons/linkedin.png) center center no-repeat transparent;
+                    left: -28px;
+                    top: 64px;
+                }
+                .instagram{
+                    background: url(../img/icons/instagram.png) center center no-repeat transparent;
+                    left: 46px;
+                    top: 75px;
+                }
+                .facebook{
+                    background: url(../img/icons/facebook.png) center center no-repeat transparent;
+                    left: 112px;
+                    top: 82px;
+                }
+                .twitter{
+                    background: url(../img/icons/twitter.png) center center no-repeat transparent;
+                    left: 175px;
+                    top: 84px;
+                }
+                .behance{
+                    background: url(../img/icons/behance.png) center center no-repeat transparent;
+                    left: 240px;
+                    top: 90px;
+                }
+                .youtube{
+                    background: url(../img/icons/youtube.png) center center no-repeat transparent;
+                    left: 315px;
+                    top: 92px;
+                }
+                .pinterest{
+                    background: url(../img/icons/pintrest.png) center center no-repeat transparent;
+                    left: 390px;
+                    top: 100px;
+                }
+                @media 
+                #{$iPad} {
+                    .linkedin{
+                        left: -20px;
+                        top: 60px;
+                    }
+                    .instagram{
+                        left: 35px;
+                        top: 66px;
+                    }
+                    .facebook{
+                        left: 95px;
+                        top: 74px;
+                    }
+                    .twitter{
+                        left: 158px;
+                        top: 75px;
+                    }
+                    .behance{
+                        left: 212px;
+                        top: 79px;
+                    }
+                    .youtube{
+                        left: 288px;
+                        top: 79px;
+                    }
+                    .pinterest{
+                        left: 358px;
+                        top: 88px;
+                    }
+                }
+                @media 
+                #{$tablets},
+                #{$phone_landscape},
+                #{$phone_portrait},
+                #{$small_device} {
+                    .linkedin{
+                        left: 40px;
+                        top: 60px;
+                    }
+                    .instagram{
+                        left: 105px;
+                        top: 66px;
+                    }
+                    .facebook{
+                        left: 172px;
+                        top: 74px;
+                    }
+                    .twitter{
+                        left: 237px;
+                        top: 75px;
+                    }
+                    .behance{
+                        left: 310px;
+                        top: 79px;
+                    }
+                    .youtube{
+                        left: 390px;
+                        top: 79px;
+                    }
+                    .pinterest{
+                        left: 470px;
+                        top: 88px;
+                    }
+                }
+
+            }
+            @media 
+            #{$iPhone},
+            #{$phone_landscape},
+            #{$phone_portrait},
+            #{$small_device} {
+                display: flex;
+                margin: auto;
+                .boxed{
+                    display: flex;
+                    margin-bottom: auto;
+                    width: 100%;
+                    // &::after{
+                    //     display: none 
+                    // }
+                    &::after{
+                        top: 102px;
+                        left: -32px;
+                        width: 120%;
+                        z-index: 0;
+                        transform: skewY(-3deg);
+                    }
+                    .linkedin,
+                    .instagram,
+                    .facebook,
+                    .twitter,
+                    .behance,
+                    .youtube,
+                    .pinterest
+                    {
+                        position: relative;
+                        top: 130px;
+                        left: 0;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    .form-sec{
+        background: url(../img/contact-form.png) top center no-repeat #ece8c0;
+        background-size: contain;
+        width: 100%;
+        padding: 30px;
+        border: 2px solid #ccc;
+        border-radius: 25px;
+        overflow: hidden;
+        .contact-us-title{
+            color: #f5f2d9;
+            text-transform: uppercase;
+        }
+        .contact-content{
+            color: $black;
+            margin-bottom: 10px;
+        }
+        .form-control{
+            background: #f5f2d9;
+            border-color: #f5f2d9;
+            border-radius: 0;
+        }
+        textarea{
+            resize: none;
+            height: 100px
+        }
+        .contact-bottom{
+            display: flex;
+            flex-direction: column;
+            .btn-contact{
+                @extend .site-btn;
+            }
+        }
+    }
+}
+.page-top-section{
+    .header-img{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: #709fb0cc;
+        background-attachment: scroll;
+        .container{
+            position: relative;
+            min-height: 450px;
+            width: 100%;
+
+            @media 
+            #{$iPad} {
+                min-height: 550px;
+            }
+            @media 
+            #{$tablets}{
+                min-height: 450px;
+            }
+            @media 
+            #{$phone_landscape},
+            #{$phone_portrait},
+            #{$small_device} {
+                min-height: 250px;
+            }
+        }
+        .page-title{
+            position: absolute;
+            top: 50%;
+            left: 30px;
+            color: $white;
+            text-transform: uppercase;
+            font-size: 3rem;
+            filter: drop-shadow(2px 4px 6px black);
+            line-height: 1;
+            font-family: $second-font;
+            font-weight: bold;
+            *{
+                font-size: 3rem;
+                font-family: $second-font;
+                font-weight: bold;
+            }
+            @media #{$iPad}{
+                font-size: 2rem;
+                *{
+                    font-size: 2rem;
+                }
+            }
+
+            @media 
+            #{$tablets} {
+                font-size: 1.8rem;
+                *{
+                    font-size: 1.8rem;
+                }
+            }
+            @media 
+            #{$phone_landscape},
+            #{$phone_portrait},
+            #{$small_device} {
+                font-size: 1.6rem;
+                *{
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}
+.page-main-content{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    min-height: 900px;
+}
+.blog-main{
+    .blog-in-list{
+        margin-top: 40px;
+        background: #50abb3;
+        .blog-img{
+            height: 165px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .blog-content{
+            padding: 20px;
+            *{
+                color: $white;
+            }
+            .blog-title{
+                text-transform: uppercase;
+
+                padding: 0;
+                margin: 0;
+                a{
+                    font-size: 1.5rem;
+                }
+            }
+            .blog-date{
+                color: $white;
+                font-size: .8rem
+            }
+            .content{
+                color: $white;
+                text-align: justify;
+            }
+        }
+        .read-more-btn{
+            background: #428c8e;
+            border: 2px solid #428c8e;
+            padding: 10px;
+            color: $yellow;
+            text-transform: uppercase;
+            &:hover,
+                &:focus{
+                background: $white;
+                color: #428c8e;
+            }
+        }
+    }
+
+}
+.btn-petrikor-load{
+    color: $main-color!important;
+    font-size: 1.5rem!important;
+    text-transform: uppercase!important;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: center!important;
+    align-items: center!important;
+    margin: 20px auto!important;
+}
+.people-page{
+    .container{
+        padding: 20px 0;
+    }
+    .people-post{
+        position: relative;
+        overflow: hidden;
+        margin-top: 30px;
+        figure{
+            height: 375px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .people-details{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #525252;
+            background: #525252cc;
+            display: block;
+            left: 100%;
+            top: 0px;
+            color: $white;
+            padding: 10px;
+        }
+
+    }
+    .people-name{
+        color: $black;
+    }
+}
+.portfolio-page{
+    padding: 20px 0;
+    margin: 0;
+    &::before,&::after{
+        display: none;
+    }
+}
+.portfolio-first-section{
+    padding: 20px 0;
+    .icon{
+        background-size: contain;
+        height: 110px;
+        width: 110px;
+        margin: 10px auto;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 10px 0;
+    }
+    .button-box{
+        margin: 10px auto;
+        a{
+            @extend .site-btn;
+            margin: auto;
+            padding: 10px 20px;
+            &:focus,
+                &:hover{
+                padding: 10px 40px;
+            }
+        }
+    }
+}
+.portfolio-cat{
+    padding: 20px 0!important;
+}
+
+.section-in-page{
+    padding: 80px 0 110px 0;
+    position: relative;
+    .site-title{
+
+    }
+    .content{
+
+    }
+    .section-image{
+        position: relative;
+
+
+    }
+    .section-image-after{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0%;
+        width: 50%;
+        height: 90%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        @include transition(all 0.6s ease);
+
+        @media 
+        #{$iPad},
+        #{$tablets},
+        #{$phone_landscape},
+        #{$phone_portrait},
+        #{$small_device} {
+            right: 0;
+            background-position: center;
+        }
+    }
+    .image-overlay{
+        position: absolute;
+        background: $main-color;
+        width: 350px;
+        height: 100%;
+        top: 0;
+        right: 13%;
+        -webkit-transform: skew(-36deg);
+        -moz-transform: skew(-36deg);
+        -o-transform: skew(-36deg);
+        opacity: .3;
+        z-index: 1
+    }
+    .full{
+        .image-overlay{
+            position: absolute;
+            background: #00A19B;
+            width: 58%;
+            height: 100%;
+            top: 0;
+            right: -8%;
+            -webkit-transform: skew(-14deg);
+            -moz-transform: skew(-14deg);
+            -o-transform: skew(-14deg);
+            opacity: .3;
+            &.left{
+                left: -8%;
+                right: unset;
+                -webkit-transform: skew(14deg);
+                -moz-transform: skew(14deg);
+                -o-transform: skew(14deg);
+            }
+        }
+    }
+    &.animate{
+        .section-image-after{
+            right: 0%;
+        }
+    }
+}
+@media #{$tablets},
+#{$phone_landscape},
+#{$phone_portrait},
+#{$small_device} {
+    .footer-menu {
+        margin: 30px auto;
+    }
+
+    .site-btn {
+        padding: 10px;
+    }
+}
+
+footer {
+    .footer-widget {
+        margin: 40px auto 20px;
+        height: 100%;
+
+        h6 {
+            color: $main-color;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        li {
+
+            a {
+                color: $second-color;
+                text-transform: uppercase;
+            }
+
+            &:hover,
+                &:focus {
+
+
+                a {
+                    color: $main-color;
+                    -webkit-transition: all 0.25s ease-in-out 0s;
+                    -o-transition: all 0.25s ease-in-out 0s;
+                    transition: all 0.25s ease-in-out 0s;
+                    display: block;
+                    -webkit-transform: translateX(10px);
+                    transform: translateX(10px);
+                }
+            }
+        }
+
+
+    }
+
+    .footer-last-widget {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 60%;
+
+        .site-address {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        i {
+            color: $main-color;
+            padding: 0px 10px 4px 0;
+        }
+    }
+
+    .footer-social-network {
+        li {
+            a {
+                width: 25px;
+                height: 25px;
+                border: 1px solid #333;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 14px;
+                color: #333;
+                -webkit-transform: perspective(1px) translateZ(0);
+                transform: perspective(1px) translateZ(0);
+                box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+                position: relative;
+                -webkit-transition-duration: 0.3s;
+                transition-duration: 0.3s;
+                -webkit-transition-property: transform;
+                transition-property: transform;
+            }
+
+            &:hover,
+                &:focus {
+
+                a {
+                    -webkit-transform: translateY(-10px);
+                    transform: translateY(-10px);
+                    border: 1px solid $yellow;
+                    color: $yellow;
+                }
+            }
+        }
+    }
+}
+
+.footer-copyright {
+    color: $white;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: $main-color;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .container {
+        position: relative;
+        z-index: 4;
+    }
+
+    a.text-site {
+        color: $white !important;
+        text-transform: capitalize;
+        padding: 0;
+    }
+
+    @media #{$tablets},
+    #{$phone_landscape},
+    #{$phone_portrait},
+    #{$small_device} {
+        .col-sm {
+            text-align: center !important;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,15 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Apr  9 22:47 .
+drwxr-xr-x   73 petriko1   petriko1         4096 Apr  9 22:47 ..
+-rw-r--r--    1 petriko1   petriko1         1835 Apr  9 22:47 block.json
+-rw-r--r--    1 petriko1   petriko1         4673 Apr  9 22:47 editor-rtl.css
+-rw-r--r--    1 petriko1   petriko1         2665 Apr  9 22:47 editor-rtl.min.css
+-rw-r--r--    1 petriko1   petriko1         4671 Apr  9 22:47 editor.css
+-rw-r--r--    1 petriko1   petriko1         2663 Apr  9 22:47 editor.min.css
+-rw-r--r--    1 petriko1   petriko1         3501 Apr  9 22:47 style-rtl.css
+-rw-r--r--    1 petriko1   petriko1         1631 Apr  9 22:47 style-rtl.min.css
+-rw-r--r--    1 petriko1   petriko1         3569 Apr  9 22:47 style.css
+-rw-r--r--    1 petriko1   petriko1         1574 Apr  9 22:47 style.min.css
+-rw-r--r--    1 petriko1   petriko1         1638 Apr  9 22:47 theme-rtl.css
+-rw-r--r--    1 petriko1   petriko1          139 Apr  9 22:47 theme-rtl.min.css
+-rw-r--r--    1 petriko1   petriko1         1638 Apr  9 22:47 theme.css
+-rw-r--r--    1 petriko1   petriko1          139 Apr  9 22:47 theme.min.css

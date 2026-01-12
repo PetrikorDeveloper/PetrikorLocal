@@ -1,0 +1,11 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 .
+drwxr-xr-x   13 petriko1   petriko1         4096 Sep  9  2021 ..
+-rw-r--r--    1 petriko1   petriko1        20294 Apr  9 22:47 handlers.js
+-rw-r--r--    1 petriko1   petriko1        11903 Apr  9 22:47 handlers.min.js
+-rw-r--r--    1 petriko1   petriko1        17987 Nov  3  2019 license.txt
+-rw-r--r--    1 petriko1   petriko1       254084 Apr  9 22:47 moxie.js
+-rw-r--r--    1 petriko1   petriko1        87591 Apr  9 22:47 moxie.min.js
+-rw-r--r--    1 petriko1   petriko1        60314 Apr  9 22:47 plupload.js
+-rw-r--r--    1 petriko1   petriko1        15612 Apr  9 22:47 plupload.min.js
+-rw-r--r--    1 petriko1   petriko1        16442 Apr  9 22:47 wp-plupload.js
+-rw-r--r--    1 petriko1   petriko1         5979 Apr  9 22:47 wp-plupload.min.js

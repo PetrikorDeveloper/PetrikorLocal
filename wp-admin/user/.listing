@@ -1,0 +1,12 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Nov  5  2021 .
+drwxr-xr-x    9 petriko1   petriko1         4096 Apr  9 22:47 ..
+-rw-r--r--    1 petriko1   petriko1          257 Feb  6  2020 about.php
+-rw-r--r--    1 petriko1   petriko1          865 Feb  6  2020 admin.php
+-rw-r--r--    1 petriko1   petriko1          261 Feb  6  2020 credits.php
+-rw-r--r--    1 petriko1   petriko1        12334 Nov  8  2021 error_log
+-rw-r--r--    1 petriko1   petriko1          263 Feb  6  2020 freedoms.php
+-rw-r--r--    1 petriko1   petriko1          251 Feb  6  2020 index.php
+-rw-r--r--    1 petriko1   petriko1          758 Feb  6  2020 menu.php
+-rw-r--r--    1 petriko1   petriko1          261 Feb  6  2020 privacy.php
+-rw-r--r--    1 petriko1   petriko1          252 Feb  6  2020 profile.php
+-rw-r--r--    1 petriko1   petriko1          250 Feb  6  2020 user-edit.php

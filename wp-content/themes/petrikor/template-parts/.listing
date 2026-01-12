@@ -1,0 +1,12 @@
+drwxr-xr-x    6 petriko1   petriko1         4096 Oct 27  2021 .
+drwxr-xr-x    5 petriko1   petriko1         4096 Apr 19 14:13 ..
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 category
+-rw-r--r--    1 petriko1   petriko1          420 Feb 13  2021 content-clouds.php
+-rw-r--r--    1 petriko1   petriko1         1424 Nov 25 11:34 content-header.php
+-rw-r--r--    1 petriko1   petriko1        33995 Jun 22  2021 content-loader-portfolio.php
+-rw-r--r--    1 petriko1   petriko1        44913 Feb 17  2021 content-loader.php
+-rw-r--r--    1 petriko1   petriko1         1316 Feb 13  2021 content-none.php
+-rw-r--r--    1 petriko1   petriko1         1869 Feb 13  2021 content-search.php
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 navigation
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 page
+drwxr-xr-x    2 petriko1   petriko1         4096 Apr 21 13:30 post

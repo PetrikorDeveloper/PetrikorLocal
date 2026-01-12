@@ -1,0 +1,10 @@
+drwxr-xr-x    3 petriko1   petriko1         4096 Oct 27  2021 .
+drwxr-xr-x   37 petriko1   petriko1         4096 Oct 27  2021 ..
+-rw-r--r--    1 petriko1   petriko1          150 Feb 13  2021 arrow_left.png
+-rw-r--r--    1 petriko1   petriko1          154 Feb 13  2021 arrow_right.png
+-rw-r--r--    1 petriko1   petriko1         2570 Feb 13  2021 field_spinner.css
+-rw-r--r--    1 petriko1   petriko1         4624 Mar 31 11:19 field_spinner.js
+-rw-r--r--    1 petriko1   petriko1         1527 Mar 31 11:28 field_spinner.min.js
+-rw-r--r--    1 petriko1   petriko1         6503 Feb 13  2021 field_spinner.php
+-rw-r--r--    1 petriko1   petriko1         3310 Feb 13  2021 field_spinner.scss
+drwxr-xr-x    2 petriko1   petriko1         4096 Oct 27  2021 vendor

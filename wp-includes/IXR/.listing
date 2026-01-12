@@ -1,0 +1,12 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 .
+drwxr-xr-x   26 petriko1   petriko1        12288 Apr 29 10:59 ..
+-rw-r--r--    1 petriko1   petriko1          414 Aug 27  2016 class-IXR-base64.php
+-rw-r--r--    1 petriko1   petriko1         4787 Jun 30  2020 class-IXR-client.php
+-rw-r--r--    1 petriko1   petriko1         1263 Jun 30  2020 class-IXR-clientmulticall.php
+-rw-r--r--    1 petriko1   petriko1         1691 May 26  2019 class-IXR-date.php
+-rw-r--r--    1 petriko1   petriko1          854 Aug 27  2016 class-IXR-error.php
+-rw-r--r--    1 petriko1   petriko1         5323 Aug 27  2016 class-IXR-introspectionserver.php
+-rw-r--r--    1 petriko1   petriko1         8195 Jul  5  2020 class-IXR-message.php
+-rw-r--r--    1 petriko1   petriko1          927 Aug 27  2016 class-IXR-request.php
+-rw-r--r--    1 petriko1   petriko1         6670 May 24  2021 class-IXR-server.php
+-rw-r--r--    1 petriko1   petriko1         3790 Aug 27  2016 class-IXR-value.php

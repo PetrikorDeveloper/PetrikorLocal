@@ -1,0 +1,4 @@
+drwxr-xr-x    2 petriko1   petriko1         4096 Sep  9  2021 .
+drwxr-xr-x    9 petriko1   petriko1         4096 Sep  9  2021 ..
+-rw-r--r--    1 petriko1   petriko1         2043 May 11  2021 CaseInsensitiveDictionary.php
+-rw-r--r--    1 petriko1   petriko1         1267 May 11  2021 FilteredIterator.php

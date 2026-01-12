@@ -1,0 +1,9 @@
+2020-09-26T07:28:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Template_Loader::unsupported_theme_title_filter(), 1 passed in /Applications/MAMP/htdocs/Teabah/wp-includes/class-wp-hook.php on line 287 and exactly 2 expected in /Applications/MAMP/htdocs/Teabah/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php:408
+Stack trace:
+#0 /Applications/MAMP/htdocs/Teabah/wp-includes/class-wp-hook.php(287): WC_Template_Loader::unsupported_theme_title_filter('Cart')
+#1 /Applications/MAMP/htdocs/Teabah/wp-includes/plugin.php(206): WP_Hook->apply_filters('Cart', Array)
+#2 /Applications/MAMP/htdocs/Teabah/wp-content/themes/Teabah/inc/front-assets/breadcrumb.php(46): apply_filters('the_title', 'Cart')
+#3 /Applications/MAMP/htdocs/Teabah/wp-content/themes/Teabah/template-parts/page/content-page.php(30): get_hansel_and_gretel_breadcrumbs()
+#4 /Applications/MAMP/htdocs/Teabah/wp-includes/template.php(732): require('/Applications/M...')
+#5 /Applications/MAMP/htdocs/Teabah/wp-includes/template.php(676): load_temp in /Applications/MAMP/htdocs/Teabah/wp-content/plugins/woocommerce/includes/class-wc-template-loader.php on line 408
+

@@ -731,6 +731,71 @@ if (have_posts()) :
       </section>
 
 
+      <section class="pb-5 pf  position-relative paid-growth">
+        <div class="container mt-5">
+          <h5 class="usc-sec-title text-white mb-5" data-aos="fade-right">Key Learnings & Future Opportunities </h5>
+
+          <div class="row g-4 mb-5">
+            <!-- Card 1 -->
+            <div class="col-lg-6 col-md-6">
+              <div class="challenge-card">
+                <h5 class="challenge-title">Strategic Scaling Requires Solid Foundations</h5>
+                <p>
+                  Baseline diagnostics in both channels de-risked spend increases.
+                </p>
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-140.svg" class="border-img borderr-top" alt="">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-141.svg" class="border-img borderr-right" alt="">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-140.svg" class="border-img borderr-bottom" alt="">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-141.svg" class="border-img borderr-left" alt="">
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-6 col-md-6">
+              <div class="challenge-card">
+                <h5 class="challenge-title">Structured Funnels Provide Control</h5>
+                <p>
+                  The L1-L2-L3 Meta structure gave us leverage over the full customer journey, improving ROAS, CPA and retention metrics. </p>
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-140.svg" class="border-img borderr-top" alt="">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-141.svg" class="border-img borderr-right" alt="">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-140.svg" class="border-img borderr-bottom" alt="">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-141.svg" class="border-img borderr-left" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-lg-6 col-md-6">
+              <div class="challenge-card">
+                <h5 class="challenge-title">Seasonal Synergy Wins</h5>
+                <p>
+                  Coordinated SEM blitz + SEO-primed pages doubled holiday upside. </p>
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-140.svg" class="border-img borderr-top" alt="">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-141.svg" class="border-img borderr-right" alt="">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-140.svg" class="border-img borderr-bottom" alt="">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-141.svg" class="border-img borderr-left" alt="">
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-lg-6 col-md-6">
+              <div class="challenge-card postion-relative">
+                <h5 class="challenge-title">Structured Content Safeguards Visibility</h5>
+                <p>
+                  Consistent on-page, content, UX, and technical cadence prevented ranking erosion. </p>
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-140.svg" class="border-img borderr-top" alt="">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-141.svg" class="border-img borderr-right" alt="">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-140.svg" class="border-img borderr-bottom" alt="">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-141.svg" class="border-img borderr-left" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
 
 
       <div class="divider-blog-before">

@@ -21,7 +21,8 @@
 
 @font-face {
   font-family: "Retroking";
-  src: url("../fonts/RetrokingRegular.woff2") format("woff2"),
+  src:
+    url("../fonts/RetrokingRegular.woff2") format("woff2"),
     url("../fonts/RetrokingRegular.woff") format("woff"),
     url("../fonts/RetrokingRegular.ttf") format("truetype");
   font-weight: normal;
@@ -36,7 +37,8 @@
 }
 @font-face {
   font-family: "Retroking Rough";
-  src: url("../fonts/RetrokingRough.woff2") format("woff2"),
+  src:
+    url("../fonts/RetrokingRough.woff2") format("woff2"),
     url("../fonts/RetrokingRough.woff") format("woff"),
     url("../fonts/RetrokingRough.ttf") format("truetype");
   font-weight: normal;
@@ -46,7 +48,8 @@
 
 @font-face {
   font-family: "Nexa";
-  src: url("../fonts/NexaLight.otf") format("woff2"),
+  src:
+    url("../fonts/NexaLight.otf") format("woff2"),
     url("../fonts/Nexa Light.otf") format("woff");
 
   font-weight: normal;
@@ -3027,7 +3030,9 @@ html {
   background-position: -480px 75px;
 }
 .youtube-animation:hover {
-  animation: fadeout 0.3s, moveOnXYoutube 1.5s steps(8) 1 0.3s,
+  animation:
+    fadeout 0.3s,
+    moveOnXYoutube 1.5s steps(8) 1 0.3s,
     moveOnYYoutube 1.5s steps(7) 1 0.3s;
 }
 
@@ -3059,7 +3064,9 @@ html {
   background-position: -562px 80px;
 }
 .linkedin-animation:hover {
-  animation: fadeout 0.3s, moveOnXLinkedin 1.5s steps(7) 1 0.3s,
+  animation:
+    fadeout 0.3s,
+    moveOnXLinkedin 1.5s steps(7) 1 0.3s,
     moveOnYLinkedin 1.5s steps(8) 1 0.3s;
 }
 
@@ -3092,7 +3099,9 @@ html {
   background-position: -400px 100px;
 }
 .twitter-animation:hover {
-  animation: fadeout 0.3s, moveOnXTwitter 1.5s steps(6) 1 0.3s,
+  animation:
+    fadeout 0.3s,
+    moveOnXTwitter 1.5s steps(6) 1 0.3s,
     moveOnYTwitter 1.5s steps(5) 1 0.3s;
 }
 
@@ -3115,7 +3124,9 @@ html {
 }
 
 .facebook-animation:hover {
-  animation: fadeout 0.3s, moveOnX 1.5s steps(6) 1 0.3s,
+  animation:
+    fadeout 0.3s,
+    moveOnX 1.5s steps(6) 1 0.3s,
     moveOnY 1.5s steps(6) 1 0.3s;
 }
 
@@ -3127,7 +3138,9 @@ html {
   background-position: -400px 100px;
 }
 .instagram-animation:hover {
-  animation: fadeout 0.3s, moveOnXInstagram 1.5s steps(6) 1 0.3s,
+  animation:
+    fadeout 0.3s,
+    moveOnXInstagram 1.5s steps(6) 1 0.3s,
     moveOnYInstagram 1.5s steps(4) 1 0.5s;
 }
 
@@ -5338,7 +5351,8 @@ p:has(.before-end-section-seo-dub) {
   background-color: transparent;
   background-image: url("../img/checkbox.png");
   background-size: contain;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.05),
     inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
   padding: 10px;
   display: inline-block;
@@ -6040,6 +6054,7 @@ p:has(.before-end-section-seo-dub) {
   position: relative;
   background-image: url(https://petrikorsolutions.com/wp-content/uploads/2025/10/Vector-4.svg);
   background-size: cover;
+  background-position: bottom;
 }
 
 .challenge-card:hover {
@@ -7300,4 +7315,18 @@ p:has(.before-end-section-seo-dub) {
 .base-card:nth-child(3) p,
 .base-card:nth-child(3) h3 {
   padding-left: 20px;
+}
+.postid-3166 .petrikor-header .petrikor-main-menu li a {
+  color: #3b8290;
+}
+.mobile-banner {
+  display: none !important;
+}
+@media (max-width: 768px) {
+  .mobile-banner {
+    display: block !important;
+  }
+  .desktop-banner {
+    display: none !important;
+  }
 }

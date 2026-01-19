@@ -74,7 +74,7 @@ if (have_posts()) :
     <div class="case-study paid-growth" id="<?php the_title(); ?>">
 
       <?php if ($display_header_image == 'true') : ?>
-        <header class="page-top-section has-clouds">
+        <header class="page-top-section has-clouds desktop-banner">
           <section class="header-img edited-header-img" style="<?= esc_attr($style); ?>" data-aos="fade-down">
             <div class="container">
               <div class="page-title edited-width" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="200"
@@ -112,8 +112,82 @@ if (have_posts()) :
           }
         </style>
       <?php endif; ?>
+
+
+
+      <?php if ($display_header_image == 'true') : ?>
+        <header class="page-top-section has-clouds mobile-banner">
+          <section class=" edited-header-img-mobile" style="<?= esc_attr($style); ?>;background-image:url(https://petrikorsolutions.com/wp-content/uploads/2026/01/Mask-group-24.webp)" data-aos="fade-down">
+            <div class="container">
+              <div class="page-title edited-width" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="200"
+                data-aos-easing="ease-in-sine">
+                <?= wp_kses_post($title); ?>
+
+              </div>
+
+            </div>
+          </section>
+          <div class="container mobile-buttons">
+            <p class="desc-desc text-center">How our full-funnel SEO & SEM strategy helped a luxury niche perfume retailer in UAE scale their online performance, turning struggling digital channels into powerful revenue generators.</p>
+            <div class="flex-riv-row-ch2 justify-content-center edited-buttons ">
+              <a href="#contact-">Request a Strategy Session</a>
+              <a href="/case-studies/">All Case Studies</a>
+            </div>
+          </div>
+
+          <?php if (!empty($bottom_banner)) : ?>
+            <section class="bottom_banner">
+              <?= wp_kses_post($bottom_banner); ?>
+            </section>
+          <?php endif; ?>
+
+          <?php if ($has_clouds == 'true') :
+            get_template_part('template-parts/content', 'clouds');
+          endif; ?>
+        </header>
+
+        <style>
+          .page-top-section .edited-header-img-mobile .container {
+            min-height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+
+          }
+
+          .edited-header-img-mobile .title-case-studies-23 {
+            text-align: center !important;
+          }
+
+          .mobile-buttons .edited-buttons a {
+            font-size: 0.8rem !important;
+          }
+
+          .mobile-buttons .flex-riv-row-ch2 a {
+            padding: 20px 17px !important;
+          }
+
+          @media (max-width:479px) {
+            .mobile-buttons .flex-riv-row-ch2 a:nth-of-type(2) {
+              padding: 30px 17px !important;
+            }
+
+          }
+
+          .edited-header-img-mobile {
+            min-height: 650px;
+            background-color: transparent !important;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+
+            background-attachment: scroll;
+          }
+        </style>
+      <?php endif; ?>
       <section class="pb-5 challenge-section position-relative">
         <div class="container mt-5">
+          <h5 class="usc-sec-title mb-5" data-aos="fade-right">Project Overview</h5>
           <div class="row g-4 mb-5">
             <!-- Card 1 -->
             <div class="col-lg-6 col-md-6">
@@ -178,7 +252,7 @@ if (have_posts()) :
 
       <!-- Phase 1 Section -->
       <section class=" py-5 position-relative">
-        <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Banner-b.png" class="w-100">
+        <img src="https://petrikorsolutions.com/wp-content/uploads/2026/01/Group-171-1-scaled.webp" class="w-100">
       </section>
 
 
@@ -186,10 +260,10 @@ if (have_posts()) :
       <section class="phase2-section pb-5">
         <div class="container text-center">
           <h5 class="usc-sec-title mb-3" data-aos="fade-right">The Challenge</h5>
-          <p class="results-note mb-4 text-gray" data-aos="fade-right">
+          <p class="results-note mb-4 px-5 text-gray" data-aos="fade-right">
             Despite selling luxury perfumes (a high-demand category), this retailer's digital presence was underperforming across both organic and paid channels. SEO lacked consistency between Arabic and English content, while paid campaigns suffered from poor structure and tracking.
           </p>
-          <p class="results-note mb-4 text-gray" data-aos="fade-right">
+          <p class="results-note mb-4 px-5 text-gray" data-aos="fade-right">
             Additionally, the website’s UX and UI did not meet luxury consumer expectations, impacting engagement and conversion. Leadership had no consolidated reporting system to connect ad spend with actual revenue, making ROI assessment nearly impossible. With a website migration approaching, these foundational issues needed urgent correction.
           </p>
         </div>
@@ -445,6 +519,9 @@ if (have_posts()) :
 
         </div>
       </section>
+      <div class="divider-talk-portfolio divider-blog-after">
+        <img style="width:100%;height:25px;" src="https://petrikorsolutions.com/wp-content/uploads/2026/01/Vector-10.svg" />
+      </div>
       <?php
       $last_section_group = get_field('last_section'); // Assuming 'analytics' is the field name
       $left_title = '';

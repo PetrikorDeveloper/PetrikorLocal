@@ -74,7 +74,7 @@ if (have_posts()) :
     <div class="case-study perfume-dubai" id="<?php the_title(); ?>">
 
       <?php if ($display_header_image == 'true') : ?>
-        <header class="page-top-section has-clouds">
+        <header class="page-top-section has-clouds desktop-banner">
           <section class="header-img edited-header-img" style="<?= esc_attr($style); ?>" data-aos="fade-down">
             <div class="container">
               <div class="page-title edited-width" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="200"
@@ -112,12 +112,153 @@ if (have_posts()) :
           }
         </style>
       <?php endif; ?>
-      <section class="py-5 challenge-section position-relative">
-        <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/a-sophisticated-product-shot-advertiseme_G2iIjyEYTCqvp80ZGZDhbw_LgjBrB_vSuiaXqrlMXA0bg-1-1.png" class="lap-image" alt="">
-        <div class="container py-5">
-          <div class="row g-4 py-5">
+      <?php if ($display_header_image == 'true') : ?>
+        <header class="page-top-section has-clouds mobile-banner">
+          <section class=" edited-header-img-mobile" style="<?= esc_attr($style); ?>;background-image:url(https://petrikorsolutions.com/wp-content/uploads/2026/01/Mask-group-25-1.webp)" data-aos="fade-down">
+            <div class="container">
+              <div class="page-title edited-width" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="200"
+                data-aos-easing="ease-in-sine">
+                <?= wp_kses_post($title); ?>
 
-            <div class="col-lg-6 col-md-6">
+              </div>
+
+            </div>
+          </section>
+          <div class="container mobile-buttons">
+            <p class="desc-desc text-center">A case study on achieving breakthrough online sales growth through strategic integrated SEM/PPC & SEO optimization..</p>
+            <div class="flex-riv-row-ch2 justify-content-center edited-buttons ">
+              <a href="/case-studies/">View All Case Studies</a>
+              <a href="#contact-">Contact Us</a>
+            </div>
+          </div>
+
+          <?php if (!empty($bottom_banner)) : ?>
+            <section class="bottom_banner">
+              <?= wp_kses_post($bottom_banner); ?>
+            </section>
+          <?php endif; ?>
+
+          <?php if ($has_clouds == 'true') :
+            get_template_part('template-parts/content', 'clouds');
+          endif; ?>
+        </header>
+
+        <style>
+          .page-top-section .edited-header-img-mobile .container {
+            min-height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+
+          }
+
+          .edited-header-img-mobile .title-case-studies-23 {
+            text-align: center !important;
+          }
+
+          .mobile-buttons .edited-buttons a {
+            font-size: 0.8rem !important;
+          }
+
+          .mobile-buttons .flex-riv-row-ch2 a {
+            padding: 20px 17px !important;
+          }
+
+          @media (max-width:479px) {
+            .mobile-buttons .flex-riv-row-ch2 a:nth-of-type(2) {
+              padding: 30px 17px !important;
+            }
+
+          }
+
+          .edited-header-img-mobile {
+            min-height: 650px;
+            background-color: transparent !important;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+
+            background-attachment: scroll;
+          }
+
+          .playbookSection .border-img {
+            filter: brightness(0) saturate(100%) invert(20%) sepia(35%) saturate(7424%) hue-rotate(177deg) brightness(87%) contrast(101%);
+          }
+
+          .bookBox {
+            color: white;
+            z-index: 1;
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            flex-direction: column;
+            padding: 1rem;
+          }
+
+          .bookBox h6 {
+            font-family: Nexa;
+            font-size: 18px;
+            font-weight: 900;
+          }
+
+          .bookBox p {
+            color: #FFF;
+            font-family: Nexa;
+            font-size: 16px;
+            font-weight: 400;
+          }
+
+          .clippedImg {
+            width: fit-content;
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: calc(100% + 30px);
+            margin-left: -2px;
+          }
+
+          .clippedImg.bgBlue {
+            background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NTkiIGhlaWdodD0iMTc3IiB2aWV3Qm94PSIwIDAgNDU5IDE3NyIgZmlsbD0iIzAwNjc3RSI+CiAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMjIuOTgyIDE1OC44NDRDMzU1LjE0MiAxODQuMzEzIDQzNC43MyAxNzAuNTg4IDQ0Ni45MjYgMTc2LjVDNDQ5LjgzMSAxNzYuNSA0NTIuNzM2IDE3Ni41IDQ1NS42NDEgMTc2LjVDNDU1LjY0MSAxNTUuMDkgNDU1Ljg3MyAxMzMuODE5IDQ1Ni40NTQgMTEyLjU0N0M0NTYuMjIyIDEwMy4wMTYgNDU1Ljk4OSA5My42MjM0IDQ1NS44NzMgODMuOTU0NUM0NTUuNDA4IDU2Ljg4MTQgNDU1LjI5MiAyOS41MzIxIDQ1Ny41IDIuNDU5MTFDNDI3Ljg3IDIuMzIwOTkgMzk4LjI0IDAuMjQ5MDcgMzY4LjcyNiAwLjUyNTMyNkMzNTEuNDEzIDAuNjYzNDUzIDMzNC4xIDEuMzU0MDkgMzE2LjkwMiAyLjE4Mjg2QzMwNi45MSAyLjg3MzUgMjk2LjkxNyAzLjU2NDEzIDI4Ni45MjQgMy44NDAzOUMyODEuNTc5IDQuMTE2NjUgMjc2LjM1IDQuMzkyOSAyNzEuMDA1IDQuNjY5MTZDMjM4LjU4NiA2LjE4ODU2IDIwNi4wNTEgOC45NTExMSAxNzMuNjMyIDguNjc0ODZDMTQxLjc5NSA4LjM5ODYgMTEwLjE4OSA0LjUzMTAzIDc4LjM1MTUgMy4yODc4OEM2MS4xNTQ1IDIuNTk3MjQgNDMuODQxMiAyLjczNTM3IDI2LjY0NDIgMi4zMjA5OUMyNS4xMzM2IDIuMzIwOTkgMjMuNzM5MiAyLjE4Mjg2IDIyLjIyODcgMi4xODI4NkMyMS45OTYzIDMuNTY0MTMgMjEuNzYzOSA0LjgwNzI4IDIxLjg4MDEgNi40NjQ4MkMxOS45MDQ4IDUuMDgzNTQgMTcuODEzMiAzLjcwMjI2IDE1LjgzNzkgMi4zMjA5OUMxMi4zNTIgMi4xODI4NiA4Ljk4MjMyIDIuMDQ0NzMgNS40OTY0MyAyLjMyMDk5QzQuMTAyMDcgMi4zMjA5OSAyLjcwNzY4IDIuNDU5MTEgMS4zMTMzMiAyLjU5NzI0QzEuNjYxOTEgNy41Njk4NCAwLjUgMTMuNTA5MyAwLjUgMTguMzQzOEMwLjUgMjYuMzU1MiAwLjUwMDAxNSAzNC4zNjY2IDAuNjE2MjExIDQyLjM3OEMwLjg0ODYwNCA1OC4yNjI3IDEuMzEzMzMgNzQuMDA5MyAwLjg0ODU0MSA4OS44OTM5QzAuOTY0NzM4IDkzLjA3MDkgMS4wODA5NSA5Ni4zODU5IDEuMTk3MTQgOTkuNTYyOUMxLjc3ODEyIDExNS4xNzEgMi40NzUzMiAxMzEuMzMyIDEuMDgwOTYgMTQ2LjgwM0MwLjk2NDc2NyAxNDYuOTQxIDAuOTY0NzUyIDE0Ny4yMTcgMC45NjQ3NTIgMTQ3LjM1NUMxLjg5NDMyIDE1NS41MDUgMi45NDAwOCAxNjMuNzkyIDIuNTkxNDkgMTcxLjk0MkMyMi40NjExIDE3Mi4zNTYgNDIuMzMwNiAxNzEuNTI3IDYyLjIwMDIgMTcxLjI1MUM2MS45Njc4IDE2OS41OTQgNTMuMDE5NiAxNjAuNjg4IDUyLjY3MTEgMTU5LjMwN0M1Mi42NzExIDE1OC44OTIgNDEuMTIxMiAxNDUuMDQzIDYxLjI3MDYgMTY1LjU4OEM2My40Nzg0IDE2Ny4zODQgNjUuNTY5OSAxNjkuMzE3IDY3LjY2MTUgMTcxLjExM0M3My45MzYxIDE3MS4xMTMgODAuMjEwNiAxNzEuMTEzIDg2LjQ4NTIgMTcxLjI1MUMxOTYuNDk3IDE3NC40NTQgMTI1LjYyMyAxNjguOTAzIDI2Ny44NjggMTY4LjkwM0MyODkuNzc1IDE2OC45MDMgMjM5LjgxOSAxMzMuODEgMjk1Ljg3MSAxNjkuNTk0QzMxNi4wODkgMTcwLjQyMiAzMzYuNDIzIDE3Mi4zNTYgMzU2LjY0MiAxNzQuNDI4QzM2Ny43OTYgMTc1LjUzMyAzNzkuMDY4IDE3Ni4yMjQgMzkwLjIyMiAxNzYuNSIgc3Ryb2tlPSIjMDA2NzdFIj48L3BhdGg+CiAgICAgICAgICAgICAgICA8L3N2Zz4=);
+          }
+
+          .clippedImg.bgOrange {
+            background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NTkiIGhlaWdodD0iMTc3IiB2aWV3Qm94PSIwIDAgNDU5IDE3NyIgZmlsbD0iI0NDNTU0MSI+CiAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMjIuOTgyIDE1OC44NDRDMzU1LjE0MiAxODQuMzEzIDQzNC43MyAxNzAuNTg4IDQ0Ni45MjYgMTc2LjVDNDQ5LjgzMSAxNzYuNSA0NTIuNzM2IDE3Ni41IDQ1NS42NDEgMTc2LjVDNDU1LjY0MSAxNTUuMDkgNDU1Ljg3MyAxMzMuODE5IDQ1Ni40NTQgMTEyLjU0N0M0NTYuMjIyIDEwMy4wMTYgNDU1Ljk4OSA5My42MjM0IDQ1NS44NzMgODMuOTU0NUM0NTUuNDA4IDU2Ljg4MTQgNDU1LjI5MiAyOS41MzIxIDQ1Ny41IDIuNDU5MTFDNDI3Ljg3IDIuMzIwOTkgMzk4LjI0IDAuMjQ5MDcgMzY4LjcyNiAwLjUyNTMyNkMzNTEuNDEzIDAuNjYzNDUzIDMzNC4xIDEuMzU0MDkgMzE2LjkwMiAyLjE4Mjg2QzMwNi45MSAyLjg3MzUgMjk2LjkxNyAzLjU2NDEzIDI4Ni45MjQgMy44NDAzOUMyODEuNTc5IDQuMTE2NjUgMjc2LjM1IDQuMzkyOSAyNzEuMDA1IDQuNjY5MTZDMjM4LjU4NiA2LjE4ODU2IDIwNi4wNTEgOC45NTExMSAxNzMuNjMyIDguNjc0ODZDMTQxLjc5NSA4LjM5ODYgMTEwLjE4OSA0LjUzMTAzIDc4LjM1MTUgMy4yODc4OEM2MS4xNTQ1IDIuNTk3MjQgNDMuODQxMiAyLjczNTM3IDI2LjY0NDIgMi4zMjA5OUMyNS4xMzM2IDIuMzIwOTkgMjMuNzM5MiAyLjE4Mjg2IDIyLjIyODcgMi4xODI4NkMyMS45OTYzIDMuNTY0MTMgMjEuNzYzOSA0LjgwNzI4IDIxLjg4MDEgNi40NjQ4MkMxOS45MDQ4IDUuMDgzNTQgMTcuODEzMiAzLjcwMjI2IDE1LjgzNzkgMi4zMjA5OUMxMi4zNTIgMi4xODI4NiA4Ljk4MjMyIDIuMDQ0NzMgNS40OTY0MyAyLjMyMDk5QzQuMTAyMDcgMi4zMjA5OSAyLjcwNzY4IDIuNDU5MTEgMS4zMTMzMiAyLjU5NzI0QzEuNjYxOTEgNy41Njk4NCAwLjUgMTMuNTA5MyAwLjUgMTguMzQzOEMwLjUgMjYuMzU1MiAwLjUwMDAxNSAzNC4zNjY2IDAuNjE2MjExIDQyLjM3OEMwLjg0ODYwNCA1OC4yNjI3IDEuMzEzMzMgNzQuMDA5MyAwLjg0ODU0MSA4OS44OTM5QzAuOTY0NzM4IDkzLjA3MDkgMS4wODA5NSA5Ni4zODU5IDEuMTk3MTQgOTkuNTYyOUMxLjc3ODEyIDExNS4xNzEgMi40NzUzMiAxMzEuMzMyIDEuMDgwOTYgMTQ2LjgwM0MwLjk2NDc2NyAxNDYuOTQxIDAuOTY0NzUyIDE0Ny4yMTcgMC45NjQ3NTIgMTQ3LjM1NUMxLjg5NDMyIDE1NS41MDUgMi45NDAwOCAxNjMuNzkyIDIuNTkxNDkgMTcxLjk0MkMyMi40NjExIDE3Mi4zNTYgNDIuMzMwNiAxNzEuNTI3IDYyLjIwMDIgMTcxLjI1MUM2MS45Njc4IDE2OS41OTQgNTMuMDE5NiAxNjAuNjg4IDUyLjY3MTEgMTU5LjMwN0M1Mi42NzExIDE1OC44OTIgNDEuMTIxMiAxNDUuMDQzIDYxLjI3MDYgMTY1LjU4OEM2My40Nzg0IDE2Ny4zODQgNjUuNTY5OSAxNjkuMzE3IDY3LjY2MTUgMTcxLjExM0M3My45MzYxIDE3MS4xMTMgODAuMjEwNiAxNzEuMTEzIDg2LjQ4NTIgMTcxLjI1MUMxOTYuNDk3IDE3NC40NTQgMTI1LjYyMyAxNjguOTAzIDI2Ny44NjggMTY4LjkwM0MyODkuNzc1IDE2OC45MDMgMjM5LjgxOSAxMzMuODEgMjk1Ljg3MSAxNjkuNTk0QzMxNi4wODkgMTcwLjQyMiAzMzYuNDIzIDE3Mi4zNTYgMzU2LjY0MiAxNzQuNDI4QzM2Ny43OTYgMTc1LjUzMyAzNzkuMDY4IDE3Ni4yMjQgMzkwLjIyMiAxNzYuNSIgc3Ryb2tlPSIjQ0M1NTQxIj48L3BhdGg+CiAgICAgICAgICAgICAgICA8L3N2Zz4=");
+          }
+
+          .clippedImg.bgYellow {
+            background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NTkiIGhlaWdodD0iMTc3IiB2aWV3Qm94PSIwIDAgNDU5IDE3NyIgZmlsbD0iI0UxQkU4MCI+CiAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMjIuOTgyIDE1OC44NDRDMzU1LjE0MiAxODQuMzEzIDQzNC43MyAxNzAuNTg4IDQ0Ni45MjYgMTc2LjVDNDQ5LjgzMSAxNzYuNSA0NTIuNzM2IDE3Ni41IDQ1NS42NDEgMTc2LjVDNDU1LjY0MSAxNTUuMDkgNDU1Ljg3MyAxMzMuODE5IDQ1Ni40NTQgMTEyLjU0N0M0NTYuMjIyIDEwMy4wMTYgNDU1Ljk4OSA5My42MjM0IDQ1NS44NzMgODMuOTU0NUM0NTUuNDA4IDU2Ljg4MTQgNDU1LjI5MiAyOS41MzIxIDQ1Ny41IDIuNDU5MTFDNDI3Ljg3IDIuMzIwOTkgMzk4LjI0IDAuMjQ5MDcgMzY4LjcyNiAwLjUyNTMyNkMzNTEuNDEzIDAuNjYzNDUzIDMzNC4xIDEuMzU0MDkgMzE2LjkwMiAyLjE4Mjg2QzMwNi45MSAyLjg3MzUgMjk2LjkxNyAzLjU2NDEzIDI4Ni45MjQgMy44NDAzOUMyODEuNTc5IDQuMTE2NjUgMjc2LjM1IDQuMzkyOSAyNzEuMDA1IDQuNjY5MTZDMjM4LjU4NiA2LjE4ODU2IDIwNi4wNTEgOC45NTExMSAxNzMuNjMyIDguNjc0ODZDMTQxLjc5NSA4LjM5ODYgMTEwLjE4OSA0LjUzMTAzIDc4LjM1MTUgMy4yODc4OEM2MS4xNTQ1IDIuNTk3MjQgNDMuODQxMiAyLjczNTM3IDI2LjY0NDIgMi4zMjA5OUMyNS4xMzM2IDIuMzIwOTkgMjMuNzM5MiAyLjE4Mjg2IDIyLjIyODcgMi4xODI4NkMyMS45OTYzIDMuNTY0MTMgMjEuNzYzOSA0LjgwNzI4IDIxLjg4MDEgNi40NjQ4MkMxOS45MDQ4IDUuMDgzNTQgMTcuODEzMiAzLjcwMjI2IDE1LjgzNzkgMi4zMjA5OUMxMi4zNTIgMi4xODI4NiA4Ljk4MjMyIDIuMDQ0NzMgNS40OTY0MyAyLjMyMDk5QzQuMTAyMDcgMi4zMjA5OSAyLjcwNzY4IDIuNDU5MTEgMS4zMTMzMiAyLjU5NzI0QzEuNjYxOTEgNy41Njk4NCAwLjUgMTMuNTA5MyAwLjUgMTguMzQzOEMwLjUgMjYuMzU1MiAwLjUwMDAxNSAzNC4zNjY2IDAuNjE2MjExIDQyLjM3OEMwLjg0ODYwNCA1OC4yNjI3IDEuMzEzMzMgNzQuMDA5MyAwLjg0ODU0MSA4OS44OTM5QzAuOTY0NzM4IDkzLjA3MDkgMS4wODA5NSA5Ni4zODU5IDEuMTk3MTQgOTkuNTYyOUMxLjc3ODEyIDExNS4xNzEgMi40NzUzMiAxMzEuMzMyIDEuMDgwOTYgMTQ2LjgwM0MwLjk2NDc2NyAxNDYuOTQxIDAuOTY0NzUyIDE0Ny4yMTcgMC45NjQ3NTIgMTQ3LjM1NUMxLjg5NDMyIDE1NS41MDUgMi45NDAwOCAxNjMuNzkyIDIuNTkxNDkgMTcxLjk0MkMyMi40NjExIDE3Mi4zNTYgNDIuMzMwNiAxNzEuNTI3IDYyLjIwMDIgMTcxLjI1MUM2MS45Njc4IDE2OS41OTQgNTMuMDE5NiAxNjAuNjg4IDUyLjY3MTEgMTU5LjMwN0M1Mi42NzExIDE1OC44OTIgNDEuMTIxMiAxNDUuMDQzIDYxLjI3MDYgMTY1LjU4OEM2My40Nzg0IDE2Ny4zODQgNjUuNTY5OSAxNjkuMzE3IDY3LjY2MTUgMTcxLjExM0M3My45MzYxIDE3MS4xMTMgODAuMjEwNiAxNzEuMTEzIDg2LjQ4NTIgMTcxLjI1MUMxOTYuNDk3IDE3NC40NTQgMTI1LjYyMyAxNjguOTAzIDI2Ny44NjggMTY4LjkwM0MyODkuNzc1IDE2OC45MDMgMjM5LjgxOSAxMzMuODEgMjk1Ljg3MSAxNjkuNTk0QzMxNi4wODkgMTcwLjQyMiAzMzYuNDIzIDE3Mi4zNTYgMzU2LjY0MiAxNzQuNDI4QzM2Ny43OTYgMTc1LjUzMyAzNzkuMDY4IDE3Ni4yMjQgMzkwLjIyMiAxNzYuNSIgc3Ryb2tlPSIjRTFCRTgwIj48L3BhdGg+CiAgICAgICAgICAgICAgICA8L3N2Zz4=");
+          }
+
+          .clippedImg.bgLightBlue {
+            background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NTkiIGhlaWdodD0iMTc3IiB2aWV3Qm94PSIwIDAgNDU5IDE3NyIgZmlsbD0iIzRGODA4QyI+CiAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMjIuOTgyIDE1OC44NDRDMzU1LjE0MiAxODQuMzEzIDQzNC43MyAxNzAuNTg4IDQ0Ni45MjYgMTc2LjVDNDQ5LjgzMSAxNzYuNSA0NTIuNzM2IDE3Ni41IDQ1NS42NDEgMTc2LjVDNDU1LjY0MSAxNTUuMDkgNDU1Ljg3MyAxMzMuODE5IDQ1Ni40NTQgMTEyLjU0N0M0NTYuMjIyIDEwMy4wMTYgNDU1Ljk4OSA5My42MjM0IDQ1NS44NzMgODMuOTU0NUM0NTUuNDA4IDU2Ljg4MTQgNDU1LjI5MiAyOS41MzIxIDQ1Ny41IDIuNDU5MTFDNDI3Ljg3IDIuMzIwOTkgMzk4LjI0IDAuMjQ5MDcgMzY4LjcyNiAwLjUyNTMyNkMzNTEuNDEzIDAuNjYzNDUzIDMzNC4xIDEuMzU0MDkgMzE2LjkwMiAyLjE4Mjg2QzMwNi45MSAyLjg3MzUgMjk2LjkxNyAzLjU2NDEzIDI4Ni45MjQgMy44NDAzOUMyODEuNTc5IDQuMTE2NjUgMjc2LjM1IDQuMzkyOSAyNzEuMDA1IDQuNjY5MTZDMjM4LjU4NiA2LjE4ODU2IDIwNi4wNTEgOC45NTExMSAxNzMuNjMyIDguNjc0ODZDMTQxLjc5NSA4LjM5ODYgMTEwLjE4OSA0LjUzMTAzIDc4LjM1MTUgMy4yODc4OEM2MS4xNTQ1IDIuNTk3MjQgNDMuODQxMiAyLjczNTM3IDI2LjY0NDIgMi4zMjA5OUMyNS4xMzM2IDIuMzIwOTkgMjMuNzM5MiAyLjE4Mjg2IDIyLjIyODcgMi4xODI4NkMyMS45OTYzIDMuNTY0MTMgMjEuNzYzOSA0LjgwNzI4IDIxLjg4MDEgNi40NjQ4MkMxOS45MDQ4IDUuMDgzNTQgMTcuODEzMiAzLjcwMjI2IDE1LjgzNzkgMi4zMjA5OUMxMi4zNTIgMi4xODI4NiA4Ljk4MjMyIDIuMDQ0NzMgNS40OTY0MyAyLjMyMDk5QzQuMTAyMDcgMi4zMjA5OSAyLjcwNzY4IDIuNDU5MTEgMS4zMTMzMiAyLjU5NzI0QzEuNjYxOTEgNy41Njk4NCAwLjUgMTMuNTA5MyAwLjUgMTguMzQzOEMwLjUgMjYuMzU1MiAwLjUwMDAxNSAzNC4zNjY2IDAuNjE2MjExIDQyLjM3OEMwLjg0ODYwNCA1OC4yNjI3IDEuMzEzMzMgNzQuMDA5MyAwLjg0ODU0MSA4OS44OTM5QzAuOTY0NzM4IDkzLjA3MDkgMS4wODA5NSA5Ni4zODU5IDEuMTk3MTQgOTkuNTYyOUMxLjc3ODEyIDExNS4xNzEgMi40NzUzMiAxMzEuMzMyIDEuMDgwOTYgMTQ2LjgwM0MwLjk2NDc2NyAxNDYuOTQxIDAuOTY0NzUyIDE0Ny4yMTcgMC45NjQ3NTIgMTQ3LjM1NUMxLjg5NDMyIDE1NS41MDUgMi45NDAwOCAxNjMuNzkyIDIuNTkxNDkgMTcxLjk0MkMyMi40NjExIDE3Mi4zNTYgNDIuMzMwNiAxNzEuNTI3IDYyLjIwMDIgMTcxLjI1MUM2MS45Njc4IDE2OS41OTQgNTMuMDE5NiAxNjAuNjg4IDUyLjY3MTEgMTU5LjMwN0M1Mi42NzExIDE1OC44OTIgNDEuMTIxMiAxNDUuMDQzIDYxLjI3MDYgMTY1LjU4OEM2My40Nzg0IDE2Ny4zODQgNjUuNTY5OSAxNjkuMzE3IDY3LjY2MTUgMTcxLjExM0M3My45MzYxIDE3MS4xMTMgODAuMjEwNiAxNzEuMTEzIDg2LjQ4NTIgMTcxLjI1MUMxOTYuNDk3IDE3NC40NTQgMTI1LjYyMyAxNjguOTAzIDI2Ny44NjggMTY4LjkwM0MyODkuNzc1IDE2OC45MDMgMjM5LjgxOSAxMzMuODEgMjk1Ljg3MSAxNjkuNTk0QzMxNi4wODkgMTcwLjQyMiAzMzYuNDIzIDE3Mi4zNTYgMzU2LjY0MiAxNzQuNDI4QzM2Ny43OTYgMTc1LjUzMyAzNzkuMDY4IDE3Ni4yMjQgMzkwLjIyMiAxNzYuNSIgc3Ryb2tlPSIjNEY4MDhDIj48L3BhdGg+CiAgICAgICAgICAgICAgICA8L3N2Zz4=");
+          }
+
+          .bookBoxContainer img {
+            max-height: 100%;
+            height: 100%;
+          }
+
+          .bookBoxContainer {
+            display: flex;
+            flex-direction: row;
+          }
+
+          .flipImg {
+            aspect-ratio: 0.41;
+            height: calc(100% + 30px);
+          }
+        </style>
+      <?php endif; ?>
+      <section class="py-5 challenge-section position-relative">
+        <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/a-sophisticated-product-shot-advertiseme_G2iIjyEYTCqvp80ZGZDhbw_LgjBrB_vSuiaXqrlMXA0bg-1-1.png" class="lap-image desktop-banner" alt="">
+        <div class="container py-5 padding-none">
+          <div class="row g-4 py-5 padding-none">
+
+            <div class="col-12 col-md-6 col-lg-6 ">
               <h5 class="usc-sec-title mb-3" data-aos="fade-right">The Challenge: Breaking the AED 100,000 Barrier</h5>
               <p class="results-note mb-4 " data-aos="fade-right">
                 The client established an ambitious target: achieve AED 100,000 per month in online sales. We determined the advertising investment needed to reach this threshold, powered by existing SEO efforts.
@@ -129,8 +270,8 @@ if (have_posts()) :
             </div>
 
 
-            <div class="col-lg-6 col-md-6">
-
+            <div class="col-12 col-md-6 col-lg-6 ">
+              <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/a-sophisticated-product-shot-advertiseme_G2iIjyEYTCqvp80ZGZDhbw_LgjBrB_vSuiaXqrlMXA0bg-1-1.png" class=" mobile-banner" alt="">
             </div>
           </div>
 
@@ -143,7 +284,7 @@ if (have_posts()) :
           <h5 class="usc-sec-title white-color  mb-3" data-aos="fade-right">Baseline Performance: Holiday Season 2023-2024</h5>
           <div class="row g-4 py-3">
             <!-- Card 1 -->
-            <div class="col-lg-4 col-md-6">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="challenge-card stats text-center">
                 <h3 class="stat-number">AED 194,715</h3>
                 <p class="youtube-approach my-0">Total Online Revenue</p>
@@ -159,7 +300,7 @@ if (have_posts()) :
             </div>
 
             <!-- Card 2 -->
-            <div class="col-lg-4 col-md-6">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="challenge-card stats text-center">
                 <h3 class="stat-number">AED 84,911</h3>
                 <p class="youtube-approach my-0">Total Ad Spend</p>
@@ -174,7 +315,7 @@ if (have_posts()) :
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <div class="col-12 col-md-12 col-lg-4">
               <div class="challenge-card stats text-center">
                 <h3 class="stat-number">229%</h3>
                 <p class="youtube-approach my-0">MER</p>
@@ -230,12 +371,13 @@ if (have_posts()) :
 
 
       <!-- Phase 2 Section -->
-      <section class="phase2-section py-5 paid-growth">
+      <section class="phase2-section py-5 paid-growth mobile-edits">
         <div class="container">
           <h5 class="usc-sec-title mb-3 edited-back">Baseline Metrics: Key Performance Indicators</h5>
-          <div class="d-flex justify-content-start ">
+          <div class="d-flex justify-content-start mobile-direction">
             <div class="base-card stats ">
-              <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Vector-40.svg" class="image-border">
+              <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Vector-40.svg" class="image-border desktop-banner">
+              <img src="https://petrikorsolutions.com/wp-content/uploads/2026/01/Group-105.svg" class="image-border mobile-banner">
               <div class="left-left-border"></div>
               <h3 class="stat-number">AED 383.1</h3>
               <p class="mt-1">
@@ -243,7 +385,8 @@ if (have_posts()) :
               </p>
             </div>
             <div class="base-card stats">
-              <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Vector-41.svg" class="image-border">
+              <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Vector-41.svg" class="image-border desktop-banner">
+              <img src="https://petrikorsolutions.com/wp-content/uploads/2026/01/Group-106.svg" class="image-border mobile-banner">
               <div class="left-left-border"></div>
               <h3 class="stat-number">AED 224.63</h3>
               <p class="mt-1">
@@ -251,7 +394,8 @@ if (have_posts()) :
               </p>
             </div>
             <div class="base-card stats ">
-              <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-140-1.svg" class="image-border">
+              <img src="https://petrikorsolutions.com/wp-content/uploads/2025/10/Group-140-1.svg" class="image-border desktop-banner">
+              <img src="https://petrikorsolutions.com/wp-content/uploads/2026/01/Group-107.svg" class="image-border mobile-banner">
               <div class="left-left-border"></div>
               <h3 class="stat-number">0.33%</h3>
               <p class="mt-1">
@@ -263,10 +407,10 @@ if (have_posts()) :
       </section>
 
       <section class="phase-section py-5 position-relative paid-growth pf">
-        <div class="container mt-5">
+        <div class="container mt-5 margin-none">
           <h5 class="usc-sec-title " data-aos="fade-right">KStrategic Approach: Two-Pronged Strategy</h5>
-          <div class="row align-items-center">
-            <div class="col-12 col-md-4">
+          <div class="row align-items-center py-3">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="big-div stats">
                 <div class="d-flex align-items-start justify-content-start ">
                   <div class="number-text mr-3 edited-number">1</div>
@@ -295,7 +439,7 @@ if (have_posts()) :
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-md-6 col-lg-8">
               <img src="https://petrikorsolutions.com/wp-content/uploads/2025/12/a-visually-engaging-infographic-advertis_VsDKmOCATnm8Dsx7QhP-0A_6-jJnkjFSXWVIowDooxUYA-1-2.png" class="">
 
             </div>
@@ -376,7 +520,7 @@ if (have_posts()) :
           <h5 class="usc-sec-title white-color  mb-3" data-aos="fade-right">Results: Holiday Season 2024-2025</h5>
           <div class="row g-4 py-3">
             <!-- Card 1 -->
-            <div class="col-lg-4 col-md-6">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="challenge-card stats text-center">
                 <h3 class="stat-number">AED 522,104</h3>
                 <p class="youtube-approach my-0">Total Revenue</p>
@@ -391,7 +535,7 @@ if (have_posts()) :
             </div>
 
             <!-- Card 2 -->
-            <div class="col-lg-4 col-md-6">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="challenge-card stats text-center">
                 <h3 class="stat-number">AED 180,524</h3>
                 <p class="youtube-approach my-0">Total Ad Spend</p>
@@ -405,7 +549,7 @@ if (have_posts()) :
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <div class="col-12 col-md-12 col-lg-4">
               <div class="challenge-card stats text-center">
                 <h3 class="stat-number">289%</h3>
                 <p class="youtube-approach my-0">MER</p>
@@ -463,7 +607,7 @@ if (have_posts()) :
           <p class="key-title  mb-2">PPC Campaign Performance</p>
           <div class="row g-4 py-3 justify-content-center">
             <!-- Card 1 -->
-            <div class="col-lg-6 col-md-6 p-0">
+            <div class="col-lg-6 col-md-6 ">
               <div class="challenge-card stats text-start" style="background-image: url(https://petrikorsolutions.com/wp-content/uploads/2025/12/Group-117.png);">
                 <h3 class="stat-number">661 Sales</h3>
 
@@ -474,7 +618,7 @@ if (have_posts()) :
             </div>
 
             <!-- Card 2 -->
-            <div class="col-lg-6 col-md-6 p-0">
+            <div class="col-lg-6 col-md-6 ">
               <div class="challenge-card stats text-start">
                 <h3 class="stat-number">AED 273 CPA</h3>
 
@@ -490,7 +634,7 @@ if (have_posts()) :
           <div class="row g-4 justify-content-between">
 
             <!-- Card 1 -->
-            <div class="col-lg-6 col-md-6 p-0">
+            <div class="col-lg-6 col-md-6 ">
               <div class="challenge-card stats text-start" style="background-image: url(https://petrikorsolutions.com/wp-content/uploads/2025/12/Group-119.png);">
                 <h3 class="stat-number">852 Sales</h3>
 
@@ -501,7 +645,7 @@ if (have_posts()) :
             </div>
 
             <!-- Card 2 -->
-            <div class="col-lg-6 col-md-6 p-0">
+            <div class="col-lg-6 col-md-6 ">
               <div class="challenge-card stats text-start" style="background-image: url(https://petrikorsolutions.com/wp-content/uploads/2025/12/Group-117.png);">
                 <h3 class="stat-number">0.51% Conversion Rate</h3>
 
@@ -513,7 +657,7 @@ if (have_posts()) :
           </div>
           <div class="row g-4 justify-content-center">
             <!-- Card 1 -->
-            <div class="col-lg-6 col-md-6 p-0 mt-4">
+            <div class="col-lg-6 col-md-6  mt-4">
               <div class="challenge-card stats text-start">
                 <h3 class="stat-number">732 New Customers</h3>
 
@@ -532,7 +676,7 @@ if (have_posts()) :
 
       <section class="phase-section py-5 position-relative paid-growth pf">
         <img src="https://petrikorsolutions.com/wp-content/uploads/2025/12/a-vintage-style-conceptual-illustration-_lB1wd7u2QNOM_gCacIPkqA_Rb4kIXfLT7WplACHezk7Lw-1-1.png" class="settings-image-edited">
-        <div class="container mt-5">
+        <div class="container mt-5 margin-none">
 
           <div class="row edited-row-row ">
             <div class="col-12 col-md-6">
@@ -550,19 +694,22 @@ if (have_posts()) :
           <div class="row ab-row">
             <div class="col-4">
               <div class="d-flex justify-start align-items-start flex-column">
-                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/12/Group-163.svg" />
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/12/Group-163.svg" class="desktop-banner" />
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2026/01/Group-174.svg" class="mobile-banner" />
                 <p class="mt-4 result-result">Meta Budget Increase</p>
               </div>
             </div>
             <div class="col-4">
               <div class="d-flex justify-start align-items-start flex-column">
-                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/12/Group-164.svg" />
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/12/Group-164.svg" class="desktop-banner" />
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2026/01/Group-175.svg" class="mobile-banner" />
                 <p class="mt-4 result-result">Controlled Targeting Funnel</p>
               </div>
             </div>
             <div class="col-4">
               <div class="d-flex justify-start align-items-start flex-column">
-                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/12/Group-165.svg" />
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2025/12/Group-165.svg" class="desktop-banner" />
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2026/01/Group-176.svg" class="mobile-banner" />
                 <p class="mt-4 result-result">Full Customer Journey</p>
               </div>
             </div>
@@ -650,7 +797,7 @@ if (have_posts()) :
       </section>
 
 
-      <section class="ruban-section py-5 position-relative paid-growth pf">
+      <section class="ruban-section py-5 position-relative paid-growth pf edited-desktop-banner">
         <div class="container mt-5">
           <h5 class="usc-sec-title white-color mb-5 " data-aos="fade-right">The L1-L2-L3 Funnel Strategy</h5>
           <div>
@@ -685,6 +832,55 @@ if (have_posts()) :
         </div>
       </section>
 
+      <section class="py-5 edited-mobile-banner ruban-section">
+        <div class="container mt-5 playbookSection">
+          <h5 class="mb-5 usc-sec-title text-white text-center" data-aos="fade-right">The L1-L2-L3 Funnel Strategy</h5>
+          <div class="mb-3 row g-4">
+            <!-- Card 1 -->
+            <div class="mb-5 col-lg-6 col-md-6 bookBoxContainer">
+              <div class="flipImg">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2026/01/Isolation-Mode.svg" />
+              </div>
+              <div class="clippedImg bgBlue">
+                <div class="bookBox">
+                  <h6>Level 1: New Customer Acquisition</h6>
+                  <p>Broad targeting parameters focused on reaching potential customers who match our ideal customer profile but have not yet engaged with the brand</p>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="mb-5 col-lg-6 col-md-6 bookBoxContainer">
+              <div class="flipImg">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2026/01/Isolation-Mode.svg" />
+              </div>
+              <div class="clippedImg bgOrange">
+                <div class="bookBox">
+                  <h6>Level 2: Engagement Deepening</h6>
+                  <p>Retargeting viewers of Level 1 ads while excluding website visitors from the past 90 days, focusing on nurturing interest</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mb-5 row justify-content-center">
+            <!-- Card 3 -->
+            <div class="mb-5 col-lg-6 col-md-6 bookBoxContainer">
+              <div class="flipImg">
+                <img src="https://petrikorsolutions.com/wp-content/uploads/2026/01/Isolation-Mode.svg" />
+              </div>
+              <div class="clippedImg bgYellow">
+                <div class="bookBox">
+                  <h6>Level 3: Conversion Focus</h6>
+                  <p>Highly targeted campaigns for recent website visitors, driving final conversion at the moment of highest purchase intent</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
       <section class=" py-5  position-relative  paid-growth">
         <img src="https://petrikorsolutions.com/wp-content/uploads/2025/12/Cloud-3.svg" class="cloud-1">
         <img src="https://petrikorsolutions.com/wp-content/uploads/2025/12/Cloud-5.svg" class="cloud-2">
@@ -692,7 +888,7 @@ if (have_posts()) :
           <h5 class="usc-sec-title   mb-3" data-aos="fade-right">Eid Al Adha: Year-Over-Year Comparison</h5>
           <div class="row py-3 ">
             <!-- Card 1 -->
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 col-lg-6 mobile-card">
               <div class="card-card">
                 <p class="youtube-approach mb-3">2024 PERFORMANCE</p>
                 <ul class="mt-3 card-ul">
@@ -711,7 +907,7 @@ if (have_posts()) :
 
             </div>
             <!-- Card 2 -->
-            <div class="col-12 col-md-6 ">
+            <div class="col-12 col-md-6 col-lg-6  mobile-card ">
               <div class="card-card">
                 <p class="youtube-approach mb-3">2025 PERFORMANCE</p>
                 <ul class="mt-3 card-ul">
@@ -731,7 +927,7 @@ if (have_posts()) :
       </section>
 
 
-      <section class="pb-5 pf  position-relative paid-growth">
+      <section class="py-5 pf edited-red-back position-relative paid-growth">
         <div class="container mt-5">
           <h5 class="usc-sec-title text-white mb-5" data-aos="fade-right">Key Learnings & Future Opportunities </h5>
 

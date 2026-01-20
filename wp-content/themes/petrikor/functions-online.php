@@ -107,6 +107,12 @@ add_filter('single_template', function ($single) {
         if ($post->ID == 3166) {
             return get_stylesheet_directory() . '/single-case_studies-3166.php';
         }
+        if ($post->ID == 3217) {
+            return get_stylesheet_directory() . '/single-case_studies-3217.php';
+        }
+        if ($post->ID == 3239) {
+            return get_stylesheet_directory() . '/single-case_studies-3239.php';
+        }
     }
 
     return $single;

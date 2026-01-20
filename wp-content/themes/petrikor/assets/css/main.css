@@ -7316,11 +7316,20 @@ p:has(.before-end-section-seo-dub) {
 .base-card:nth-child(3) h3 {
   padding-left: 20px;
 }
-.postid-3166 .petrikor-header .petrikor-main-menu li a {
+.postid-3166 .petrikor-header .petrikor-main-menu li a,
+.postid-3239 .petrikor-header .petrikor-main-menu li a {
   color: #3b8290;
 }
-.mobile-banner {
+.mobile-banner,
+.edited-mobile-banner {
   display: none !important;
+}
+.edited-red-back {
+  background: url(https://petrikorsolutions.com/wp-content/uploads/2026/01/Vector-52.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 115vh;
 }
 @media (max-width: 768px) {
   .mobile-banner {
@@ -7328,5 +7337,194 @@ p:has(.before-end-section-seo-dub) {
   }
   .desktop-banner {
     display: none !important;
+  }
+  .perfume-dubai .red-back,
+  .perfume-dubai .blue-back,
+  .edited-red-back,
+  .ruban-section {
+    height: auto;
+    padding-bottom: 10rem !important;
+  }
+  .padding-none {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .margin-none {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .mobile-edits .mobile-direction {
+    flex-direction: column;
+  }
+  .mobile-edits .mobile-direction .base-card {
+    height: auto !important;
+    width: 100% !important;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .mobile-edits .image-border {
+    top: -7px;
+  }
+  .mobile-edits .left-left-border {
+    display: none;
+  }
+  .mobile-edits .stats .stat-number {
+    line-height: 40px;
+    width: 50%;
+  }
+  .perfume-dubai .mobile-edits .edited-back {
+    padding: 20px;
+    margin-bottom: 0 !important;
+    border-top-right-radius: 25px !important;
+    border-top-left-radius: 25px !important;
+    border-radius: 0;
+  }
+  .mobile-edits .base-card:nth-child(2),
+  .mobile-edits .base-card:nth-child(3) {
+    margin-left: 0 !important;
+  }
+  .mobile-edits .base-card:nth-child(3) .image-border {
+    left: 0 !important;
+  }
+  .mobile-edits .base-card:nth-child(3) p,
+  .mobile-edits .base-card:nth-child(3) h3 {
+    padding-left: 0 !important;
+  }
+  .mobile-edits .base-card p {
+    width: 80%;
+  }
+  .phase-section.pf {
+    height: 100%;
+  }
+  .phase-section.pf .container {
+    padding-bottom: 3rem;
+  }
+  .perfume-dubai .pf.edited-pf .challenge-card {
+    padding: 40px 15px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pf.edited-pf .stats .stat-number {
+    font-size: 30px;
+  }
+  .pf.edited-pf .challenge-card p {
+    font-size: 16px;
+  }
+  .phase-section.pf .settings-image-edited {
+    position: static;
+    transform: none !important;
+    width: 100%;
+  }
+  .phase-section.pf .edited-row-row {
+    height: auto;
+  }
+  .phase-section.pf .edited-row-row .usc-sec-title {
+    font-size: 22px;
+    text-align: center;
+  }
+  .phase-section.pf .edited-row-row .result-result {
+    font-size: 13px;
+    text-align: center;
+  }
+  .ab-row {
+    position: static;
+  }
+  .ab-row .result-result {
+    font-size: 13px;
+
+    margin-top: 0.5rem !important;
+  }
+  .mobile-card {
+    background-image: url(https://petrikorsolutions.com/wp-content/uploads/2026/01/29842-Converted-02-1-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem 0;
+  }
+  .perfume-dubai .mobile-card .card-card {
+    background-image: none !important;
+    padding: 3rem 2rem;
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .edited-mobile-banner {
+    display: block !important;
+  }
+  .edited-desktop-banner {
+    display: none !important;
+  }
+}
+@media (min-width: 769px) and (max-width: 1199px) {
+  .perfume-dubai .red-back,
+  .perfume-dubai .blue-back,
+  .edited-red-back {
+    height: auto;
+    padding-bottom: 10rem !important;
+  }
+  .perfume-dubai .lap-image {
+    height: 70%;
+    width: 75%;
+  }
+  .image-border {
+    top: -15px;
+  }
+  .pf.edited-pf .stats .stat-number {
+    font-size: 25px;
+  }
+  .pf.edited-pf .challenge-card p {
+    font-size: 15px;
+  }
+  .perfume-dubai .pf.edited-pf .challenge-card {
+    padding: 45px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .paid-growth .settings-image-edited {
+    width: 500px;
+  }
+  .ggap-4 {
+    gap: 0;
+  }
+  .edited-mobile-banner {
+    display: block !important;
+  }
+  .edited-desktop-banner {
+    display: none !important;
+  }
+  .perfume-dubai .card-card {
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+    align-items: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+  .perfume-dubai .pf.edited-pf .challenge-card {
+    padding: 30px 15px;
+  }
+  .bookBox h6 {
+    font-size: 16px !important;
+  }
+  .bookBox p {
+    font-size: 12px !important;
+  }
+  .clippedImg {
+    height: calc(100% + 14px) !important;
+  }
+  .bookBox {
+    padding: 6rem 1rem !important;
+  }
+  .perfume-dubai .card-card {
+    width: 100%;
+    height: 100%;
+    padding: 3rem 0rem;
+    align-items: center;
+    background-position: center;
   }
 }
